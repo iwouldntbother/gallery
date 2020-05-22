@@ -1,0 +1,323 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#loadingScreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000000000;
+    display: grid;
+    text-align: center;
+    background-color: white;
+    
+}
+
+
+#loadingHolder {
+    align-self: center;
+    justify-self: center;
+}
+
+#loadingHolder img {
+    height: 50vh;
+    width: auto;
+}
+
+#loadingHolder p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: -10vh;
+}
+
+
+
+#menu {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    font-size: 5vh;
+    text-align: center;
+    pointer-events: none;
+    background: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0 2vw;
+    z-index: 5;
+}
+
+#container{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: center;
+    background-color: white;
+    align-self: center;
+    justify-self: center;
+    font-size: medium;
+    pointer-events: all;
+    border-radius: 25px;
+    max-height: 90vh;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#container::-webkit-scrollbar {
+    display: none;
+}
+
+h1, h2{
+    text-transform: uppercase;
+}
+
+#mainVid {
+    display: none;
+    height: 60vh;
+    width: auto;
+    justify-self: center;
+}
+
+#mainImg {
+    display: none;
+    height: 60vh;
+    width: auto;
+    align-self: center;
+}
+
+#helpDiv {
+    position: absolute;
+    bottom: 0vh;
+    text-align: center;
+    width: 100%;
+    pointer-events: none;
+}
+
+#helpText {
+    position: relative;
+    color: white;
+}
+
+#mainOBJ {
+    display: none;
+    height: 70vh;
+    width: auto;
+}
+
+#about{
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+
+#pieceListContainer {
+    width: 20vw;
+    height: 90vh;
+    margin-top: 5vh;
+    background-color: white;
+    align-self: flex-start;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    border-radius: 25px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#pieceListContainer::-webkit-scrollbar {
+    display: none;
+}
+
+
+#pieceListSearch{
+    align-items: center;
+    width: 80%;
+    padding: 0.1vw;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    height: 3vh;
+    margin-left: 10%;
+    margin-top: 1vh;
+}
+
+#pieceListSearch input {
+        width: 90%;
+        height: 20px;
+        background-color: white;
+        border: 2px solid black;
+        border-right: none;
+        color: black;
+        border-radius: 50px 0 0 50px;
+        outline: none;
+        padding-left: 1vw;
+        -webkit-appearance: none;
+        caret-color: black;
+        font-size: 2vh;
+}
+
+#pieceListSearch button {
+        width: 10%;
+        height: 26px;
+        background: white;
+        text-align: center;
+        color: black;
+        border-radius: 0 50px 50px 0;
+        border: 2px solid black;
+        cursor: pointer;
+        font-size: 2vh;
+        border-left: none;
+        background-image: url("../images/searchIcon.svg");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+
+.pieceHolder:hover {
+    background-color: lightgrey;
+}
+
+.pieceImage {
+    width: 5vw;
+    height: 5vw;
+    margin: 0.5vw;
+    float: left;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+}
+
+.pieceDetails {
+    margin-left: 6vw;
+    width: 14vw;
+    height: 6vw;
+    text-align: left;
+    padding-top: 0.5vw;
+    margin-bottom: -0.5vw;
+    padding-bottom: -0.5vw;
+    pointer-events: none;
+}
+
+.pieceTitle {
+    font-size: 2vh;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.pieceMedium {
+    font-size: 1.2vh;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.pieceArtist {
+    font-size: 1.7vh;
+    margin: 0;
+    font-weight: 550;
+}
+
+.pieceFloor {
+    font-size: 1.5vh;
+    margin: 0;
+    font-weight: 500;
+    text-transform: none;
+}
+
+#gridSpacer{
+    width: 20vw;
+}
+
+#pieceListResultInfo {
+    font-size: 1.4vh;
+    text-transform: none;
+}
+
+
+
+
+
+
+#mainCanvas {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+#cursorContainer {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#cursor {
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+}
+
+
+#PDFView {
+    max-width: 40vw;
+    height: auto;
+    max-height: 60vh;
+    overflow: hidden;
+    align-self: center;
+    display: none;
+}
+
+#pageOne {
+    max-width: 20vw;
+    height: auto;
+    margin: 0;
+}
+
+#pageTwo {
+    max-width: 20vw;
+    height: auto;
+    margin: 0;
+}
+
+#PDFControlContainer {
+    position: absolute;
+    z-index: 100000;
+    width: 40vw;
+    align-self: center;
+}
+
+#PDFLeft {
+    float: left;
+    width: 5vh;
+    height: 5vh;
+    align-self: center;
+    cursor: pointer;
+    display: none;
+}
+
+#PDFRight {
+    float: right;
+    width: 5vh;
+    height: 5vh;
+    align-self: center;
+    cursor: pointer;
+}
