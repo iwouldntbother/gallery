@@ -137,7 +137,7 @@ galleryMesh = BABYLON.SceneLoader.ImportMesh("", "models/", "BorosBunker.babylon
 
                 item.checkCollisions = false;
 
-                var index = Number(item.name.split(".")[1]);
+                var index = Number(item.name.slice(-3));
                 var pieceList = document.getElementById("pieceList");
                 var pieceTitle = pieceData[index][0];
                 var pieceMedium = pieceData[index][5];
@@ -435,7 +435,7 @@ function pieceDisplay(refNo) {
     document.getElementById("PDFView").style.display = "none";
     document.getElementById("pieceListContainer").style.opacity = 0;
     document.getElementById("container").style.height = "auto";
-    var index = Number(refNo.split(".")[1]);
+    var index = Number(refNo.slice(-3));
     
     var title = document.getElementById("title");
     var name = document.getElementById("name");

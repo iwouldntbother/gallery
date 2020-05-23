@@ -104,6 +104,36 @@ pieceData = [
     "Digital render",
     "piece014.jpg"], //014
 
+    ["Preservation",
+    "Georgia Kogel",
+    false, "piece015.jpg",
+    "A collection of protective nests that encase our possessions. These cocoon shaped forms intertwine the relationship between our homes and nests within nature. The idea of filling our homes with things to feel comforted and shielded was at large during the beginning of the Coronavirus pandemic, when for many, stockpiling was deemed necessary.",
+    "Copper wire",
+    "piece015.jpg"], //015
+
+    ["Preservation",
+    "Georgia Kogel",
+    false, "piece016.jpg",
+    "A collection of protective nests that encase our possessions. These cocoon shaped forms intertwine the relationship between our homes and nests within nature. The idea of filling our homes with things to feel comforted and shielded was at large during the beginning of the Coronavirus pandemic, when for many, stockpiling was deemed necessary.",
+    "Copper wire and Modrock",
+    "piece016.jpg"], //016
+
+    ["Preservation",
+    "Georgia Kogel",
+    false, "piece017.jpg",
+    "A collection of protective nests that encase our possessions. These cocoon shaped forms intertwine the relationship between our homes and nests within nature. The idea of filling our homes with things to feel comforted and shielded was at large during the beginning of the Coronavirus pandemic, when for many, stockpiling was deemed necessary.",
+    "Copper wire and Modrock",
+    "piece017.jpg"], //017
+
+    ["Preservation",
+    "Georgia Kogel",
+    false, "piece018.jpg",
+    "A collection of protective nests that encase our possessions. These cocoon shaped forms intertwine the relationship between our homes and nests within nature. The idea of filling our homes with things to feel comforted and shielded was at large during the beginning of the Coronavirus pandemic, when for many, stockpiling was deemed necessary.",
+    "Copper wire and Modrock",
+    "piece018.jpg"], //018
+
+
+
 
 
     ["title1",
