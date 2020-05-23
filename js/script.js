@@ -1,3 +1,9 @@
+if (screen.width <= 699) {
+    document.getElementById("mobileSupport").style.display = "flex";
+    setTimeout(function(){window.stop();}, 500)
+}
+
+
 var version = "VE Beta0.6.496";
 var isLocked = false;
 var canvas = document.getElementById("mainCanvas")
