@@ -190,31 +190,31 @@ pieceData = [
 
     ["@HOME",
     "Suzanne Elven",
-    false, "piece028.jpeg",
+    false, "piece027.jpeg",
     "@HOME points to the popular design conventions in digital marketing, and the ways in which these have shaped the hyper-visualised world in which we now live. The series explores post-internet generation's absorption of a minimal graphic aesthetic into its perception of reality.",
     "",
-    "piece028.jpeg"], //027
+    "piece027.jpeg"], //027
 
     ["@HOME",
     "Suzanne Elven",
-    false, "piece029.jpeg",
+    false, "piece028.jpeg",
     "@HOME points to the popular design conventions in digital marketing, and the ways in which these have shaped the hyper-visualised world in which we now live. The series explores post-internet generation's absorption of a minimal graphic aesthetic into its perception of reality.",
     "",
-    "piece029.jpeg"], //028
+    "piece028.jpeg"], //028
+
+    ["@HOME",
+    "Suzanne Elven",
+    false, "piece029.jpg",
+    "@HOME points to the popular design conventions in digital marketing, and the ways in which these have shaped the hyper-visualised world in which we now live. The series explores post-internet generation's absorption of a minimal graphic aesthetic into its perception of reality.",
+    "",
+    "piece029.jpg"], //029
 
     ["@HOME",
     "Suzanne Elven",
     false, "piece030.jpg",
     "@HOME points to the popular design conventions in digital marketing, and the ways in which these have shaped the hyper-visualised world in which we now live. The series explores post-internet generation's absorption of a minimal graphic aesthetic into its perception of reality.",
     "",
-    "piece030.jpg"], //029
-
-    ["@HOME",
-    "Suzanne Elven",
-    false, "piece031.jpg",
-    "@HOME points to the popular design conventions in digital marketing, and the ways in which these have shaped the hyper-visualised world in which we now live. The series explores post-internet generation's absorption of a minimal graphic aesthetic into its perception of reality.",
-    "",
-    "piece031.jpg"], //030
+    "piece030.jpg"], //030
 
 
 
