@@ -132,6 +132,90 @@ pieceData = [
     "Copper wire and Modrock",
     "piece018.jpg"], //018
 
+    ["Function and Form",
+    "Sam Harper",
+    false, "piece019.jpg",
+    "A series of Images that objects are being use for a different purpose",
+    "digital / photographs",
+    "piece019.jpg"], //019
+
+    ["Function and Form",
+    "Sam Harper",
+    false, "piece020.jpg",
+    "//",
+    "",
+    "piece020.jpg"], //020
+
+    ["Function and Form",
+    "Sam Harper",
+    false, "piece021.jpg",
+    "//",
+    "",
+    "piece021.jpg"], //021
+
+    ["Harper",
+    "Sam",
+    false, "piece022.jpg",
+    "//",
+    "",
+    "piece022.jpg"], //022
+
+    ["Function and Form",
+    "Sam Harper",
+    false, "piece023.jpg",
+    "//",
+    "",
+    "piece023.jpg"], //023
+
+    ["Function over form",
+    "Sam Harper",
+    false, "piece024.jpg",
+    "//",
+    "",
+    "piece024.jpg"], //024
+
+    ["Function and Form",
+    "Sam Harper",
+    false, "piece025.jpg",
+    "//",
+    "",
+    "piece025.jpg"], //025
+
+    ["Function and Form",
+    "Sam Harper",
+    false, "piece026.jpg",
+    "//",
+    "",
+    "piece026.jpg"], //026
+
+    ["@HOME",
+    "Suzanne Elven",
+    false, "piece028.jpeg",
+    "@HOME points to the popular design conventions in digital marketing, and the ways in which these have shaped the hyper-visualised world in which we now live. The series explores post-internet generation's absorption of a minimal graphic aesthetic into its perception of reality.",
+    "",
+    "piece028.jpeg"], //027
+
+    ["@HOME",
+    "Suzanne Elven",
+    false, "piece029.jpeg",
+    "@HOME points to the popular design conventions in digital marketing, and the ways in which these have shaped the hyper-visualised world in which we now live. The series explores post-internet generation's absorption of a minimal graphic aesthetic into its perception of reality.",
+    "",
+    "piece029.jpeg"], //028
+
+    ["@HOME",
+    "Suzanne Elven",
+    false, "piece030.jpg",
+    "@HOME points to the popular design conventions in digital marketing, and the ways in which these have shaped the hyper-visualised world in which we now live. The series explores post-internet generation's absorption of a minimal graphic aesthetic into its perception of reality.",
+    "",
+    "piece030.jpg"], //029
+
+    ["@HOME",
+    "Suzanne Elven",
+    false, "piece031.jpg",
+    "@HOME points to the popular design conventions in digital marketing, and the ways in which these have shaped the hyper-visualised world in which we now live. The series explores post-internet generation's absorption of a minimal graphic aesthetic into its perception of reality.",
+    "",
+    "piece031.jpg"], //030
+
 
 
 
