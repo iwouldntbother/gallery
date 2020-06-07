@@ -34,8 +34,7 @@ var fpsText;
 var readyToRender = false;
 
 
-//var countDownDate = new Date("Jun 19, 2020 18:00:00").getTime();
-var countDownDate = new Date("Jun 7, 2020 02:29:00").getTime();
+var countDownDate = new Date("Jun 19, 2020 18:00:00").getTime();
 var initialised = false;
 var testing = false;
 
