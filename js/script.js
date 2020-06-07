@@ -36,7 +36,7 @@ var readyToRender = false;
 
 var countDownDate = new Date("Jun 19, 2020 18:00:00").getTime();
 var initialised = false;
-var testing = false;
+var testing = true;
 
 if(!testing){
 
