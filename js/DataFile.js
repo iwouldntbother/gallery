@@ -85,17 +85,17 @@ pieceData = [
 
     ["Loser",
     "Chelsea Jacques",
-    false, "piece012.JPG",
+    false, "piece012.jpg",
     "Photo taken from 'Recipes For Disaster' Recipe book.",
     "",
-    "piece012.JPG"], //012
+    "piece012.jpg"], //012
 
     ["Sunday Lunch Pudding",
     "Chelsea Jacques",
-    false, "piece013.JPG",
+    false, "piece013.jpg",
     "Photo taken from 'Recipes For Disaster' Recipe book.",
     "",
-    "piece013.JPG"], //013
+    "piece013.jpg"], //013
 
     ["Verisimilitude",
     "Will Westwood",
@@ -218,31 +218,31 @@ pieceData = [
 
     ["China 2020 #1",
     "Leah Risby",
-    false, "piece031.JPG",
+    false, "piece031.jpg",
     "'China 2020' is a series of 3 illustrations based on photographs of China under lockdown in the spring of 2020. They seem busy due to the colours and signs everywhere, but there is only one person in all of the pieces. They reference the isolation that people feel under lockdown and how drastically life has changed.",
     "Gouache and coloured pencil",
-    "piece031.JPG"], //031
+    "piece031.jpg"], //031
 
     ["China 2020 #2",
     "Leah Risby",
-    false, "piece032.JPG",
+    false, "piece032.jpg",
     "'China 2020' is a series of 3 illustrations based on photographs of China under lockdown in the spring of 2020. They seem busy due to the colours and signs everywhere, but there is only one person in all of the pieces. They reference the isolation that people feel under lockdown and how drastically life has changed.",
     "Gouache and coloured pencil",
-    "piece032.JPG"], //032
+    "piece032.jpg"], //032
 
     ["China 2020 #3",
     "Leah Risby",
-    false, "piece033.JPG",
+    false, "piece033.jpg",
     "'China 2020' is a series of 3 illustrations based on photographs of China under lockdown in the spring of 2020. They seem busy due to the colours and signs everywhere, but there is only one person in all of the pieces. They reference the isolation that people feel under lockdown and how drastically life has changed.",
     "Gouache and coloured pencil",
-    "piece033.JPG"], //033
+    "piece033.jpg"], //033
 
     ["The Death of the High Street",
     "Leah Risby",
-    false, "piece034.JPG",
+    false, "piece034.jpg",
     "These models of buildings show the effect of increased online shopping, as less people visit high streets and businesses are forced to close. It can now link to the lockdown as well, as cinemas and public places have been closed, and some may not be able to reopen when it's safe.",
     "Mixed Media",
-    "piece034.JPG"], //034
+    "piece034.jpg"], //034
 
     ["",
     "Suzanne Elven",
@@ -344,10 +344,10 @@ pieceData = [
 
     ["The Sparrowhawk",
     "Paul Kilsby",
-    false, "piece049.JPG",
+    false, "piece049.jpg",
     "This work is inspired by Jacopo de' Barbari's painting in the National Gallery in London.",
     "Archival giclée print",
-    "piece049.JPG"], //049
+    "piece049.jpg"], //049
 
     ["",
     "Paul Kilsby",
@@ -463,10 +463,10 @@ pieceData = [
 
     ["behind the mask",
     "Thomas Hadland",
-    false, "piece066.JPG",
+    false, "piece066.jpg",
     "Due to these strange and challenging times, this painting is a portrayal of the coronavirus pandemic and the importance of the face mask. Not only is this a reference to medical protection and Covid-19, but it also reflects on global issues such as terrorism, racism and the riot and protests, especially in the U.S. This painting also hints the damage the world and economy is currently experiencing.",
     "",
-    "piece066.JPG"], //066
+    "piece066.jpg"], //066
 
     ["Accumulation",
     "Izzy van Zijl",
@@ -827,52 +827,52 @@ pieceData = [
 
     ["On the Eve",
     "Ella du Gay",
-    false, "piece118.JPG",
+    false, "piece118.jpg",
     "My second series, 'On the Eve' explores female isolation within the domestic sphere and as a psychological space, where I explore the 'room' as a symbol of the domestic life that traps so many women. I allude to Charlotte Perkin Gilman's feminist gothic novel of 1892, The Yellow Wallpaper, about the effective imprisonment of a young woman by her husband, ostensibly for her own health. However, in being trapped in this one room, the woman becomes progressively more psychologically disturbed. In effect, the novel describes how women of the time, in lacking all agency, could become subject to mental dissolution. One of the key symbols of the book is where the woman begins to see herself trapped inside the yellow wallpaper, a metaphor for her own disempowerment. The title of this second series is taken from a novel by the Russian, Ivan Turgenev. It is a story of passionate relationships with an overpowering sense of a tragic outcome.",
     "Photograph",
-    "piece118.JPG"], //118
+    "piece118.jpg"], //118
 
     ["On the Eve",
     "Ella du Gay",
-    false, "piece119.JPG",
+    false, "piece119.jpg",
     "My second series, 'On the Eve' explores female isolation within the domestic sphere and as a psychological space, where I explore the 'room' as a symbol of the domestic life that traps so many women. I allude to Charlotte Perkin Gilman's feminist gothic novel of 1892, The Yellow Wallpaper, about the effective imprisonment of a young woman by her husband, ostensibly for her own health. However, in being trapped in this one room, the woman becomes progressively more psychologically disturbed. In effect, the novel describes how women of the time, in lacking all agency, could become subject to mental dissolution. One of the key symbols of the book is where the woman begins to see herself trapped inside the yellow wallpaper, a metaphor for her own disempowerment. The title of this second series is taken from a novel by the Russian, Ivan Turgenev. It is a story of passionate relationships with an overpowering sense of a tragic outcome.",
     "Photograph",
-    "piece119.JPG"], //119
+    "piece119.jpg"], //119
 
     ["On the Eve",
     "Ella du Gay",
-    false, "piece120.JPG",
+    false, "piece120.jpg",
     "My second series, 'On the Eve' explores female isolation within the domestic sphere and as a psychological space, where I explore the 'room' as a symbol of the domestic life that traps so many women. I allude to Charlotte Perkin Gilman's feminist gothic novel of 1892, The Yellow Wallpaper, about the effective imprisonment of a young woman by her husband, ostensibly for her own health. However, in being trapped in this one room, the woman becomes progressively more psychologically disturbed. In effect, the novel describes how women of the time, in lacking all agency, could become subject to mental dissolution. One of the key symbols of the book is where the woman begins to see herself trapped inside the yellow wallpaper, a metaphor for her own disempowerment. The title of this second series is taken from a novel by the Russian, Ivan Turgenev. It is a story of passionate relationships with an overpowering sense of a tragic outcome.",
     "Photograph",
-    "piece120.JPG"], //120
+    "piece120.jpg"], //120
 
     ["On the Eve",
     "Ella du Gay",
-    false, "piece121.JPG",
+    false, "piece121.jpg",
     "My second series, 'On the Eve' explores female isolation within the domestic sphere and as a psychological space, where I explore the 'room' as a symbol of the domestic life that traps so many women. I allude to Charlotte Perkin Gilman's feminist gothic novel of 1892, The Yellow Wallpaper, about the effective imprisonment of a young woman by her husband, ostensibly for her own health. However, in being trapped in this one room, the woman becomes progressively more psychologically disturbed. In effect, the novel describes how women of the time, in lacking all agency, could become subject to mental dissolution. One of the key symbols of the book is where the woman begins to see herself trapped inside the yellow wallpaper, a metaphor for her own disempowerment. The title of this second series is taken from a novel by the Russian, Ivan Turgenev. It is a story of passionate relationships with an overpowering sense of a tragic outcome.",
     "Photography",
-    "piece121.JPG"], //121
+    "piece121.jpg"], //121
 
     ["On the Eve",
     "Ella du Gay",
-    false, "piece122.JPG",
+    false, "piece122.jpg",
     "My second series, 'On the Eve' explores female isolation within the domestic sphere and as a psychological space, where I explore the 'room' as a symbol of the domestic life that traps so many women. I allude to Charlotte Perkin Gilman's feminist gothic novel of 1892, The Yellow Wallpaper, about the effective imprisonment of a young woman by her husband, ostensibly for her own health. However, in being trapped in this one room, the woman becomes progressively more psychologically disturbed. In effect, the novel describes how women of the time, in lacking all agency, could become subject to mental dissolution. One of the key symbols of the book is where the woman begins to see herself trapped inside the yellow wallpaper, a metaphor for her own disempowerment. The title of this second series is taken from a novel by the Russian, Ivan Turgenev. It is a story of passionate relationships with an overpowering sense of a tragic outcome.",
     "Photograph",
-    "piece122.JPG"], //122
+    "piece122.jpg"], //122
 
     ["On the Eve",
     "Ella du Gay",
-    false, "piece123.JPG",
+    false, "piece123.jpg",
     "My second series, 'On the Eve' explore s female isolation within the domestic sphere and as a psychological space, where I explore the 'room' as a symbol of the domestic life that traps so many women. I allude to Charlotte Perkin Gilman's feminist gothic novel of 1892, The Yellow Wallpaper, about the effective imprisonment of a young woman by her husband, ostensibly for her own health. However, in being trapped in this one room, the woman becomes progressively more psychologically disturbed. In effect, the novel describes how women of the time, in lacking all agency, could become subject to mental dissolution. One of the key symbols of the book is where the woman begins to see herself trapped inside the yellow wallpaper, a metaphor for her own disempowerment. The title of this second series is taken from a novel by the Russian, Ivan Turgenev. It is a story of passionate relationships with an overpowering sense of a tragic outcome.",
     "Photography",
-    "piece123.JPG"], //123
+    "piece123.jpg"], //123
 
     ["On the Eve",
     "Ella du Gay",
-    false, "piece124.JPG",
+    false, "piece124.jpg",
     "My second series, 'On the Eve' explore s female isolation within the domestic sphere and as a psychological space, where I explore the 'room' as a symbol of the domestic life that traps so many women. I allude to Charlotte Perkin Gilman's feminist gothic novel of 1892, The Yellow Wallpaper, about the effective imprisonment of a young woman by her husband, ostensibly for her own health. However, in being trapped in this one room, the woman becomes progressively more psychologically disturbed. In effect, the novel describes how women of the time, in lacking all agency, could become subject to mental dissolution. One of the key symbols of the book is where the woman begins to see herself trapped inside the yellow wallpaper, a metaphor for her own disempowerment. The title of this second series is taken from a novel by the Russian, Ivan Turgenev. It is a story of passionate relationships with an overpowering sense of a tragic outcome.",
     "Photography",
-    "piece124.JPG"], //124
+    "piece124.jpg"], //124
 
     ["Coronamaze",
     "Sebastian Ynaraja Rodriguez",
