@@ -16,11 +16,17 @@
 
     <div id="mobileSupport">
         <h1>Sorry,<br>
-            mobile devices are<br>
-            not currently supported.<br>
+            mobile devices are not
+            <br>currently supported.<br>
             To view the gallery<br>
             please use a desktop<br>
             or laptop computer.</h1>
+    </div>
+
+    <div id="countdown">
+        <img id="countdownLogo" src="images/padlock.svg">
+        <h1 id="countdownTitle">Unlocked</h1><br>
+        <h2 id="countdownTimer">--d --h --m --s</h2>
     </div>
 
     <div id="loadingScreen">
@@ -39,8 +45,8 @@
         <h2 id="name">VE Beta0.5.496</h2>
         
         <div id="PDFView">
-            <img id="pageOne" src="pieces/cookbook/0001.jpg"></img>
-            <img id="pageTwo" src="pieces/cookbook/0002.jpg"></img>
+            <img id="pageOne" src=""></img>
+            <img id="pageTwo" src=""></img>
             <div id="PDFControlContainer">
                 <img id="PDFLeft" src="images/PDFLeft.svg" onclick="PDFLeft()"></img>
                 <img id="PDFRight" src="images/PDFRight.svg" onclick="PDFRight()"></img>
@@ -53,7 +59,7 @@
 <style type="text/css">
 	.st0{fill:#999999;}
 	.st1{fill:none;stroke:#999999;stroke-width:5;stroke-miterlimit:10;}
-	.st2{fill:#FFFFFF;stroke:#999999;stroke-width:5;stroke-miterlimit:10;}
+    .st2{fill:#FFFFFF;stroke:#999999;stroke-width:5;stroke-miterlimit:10;}
 </style>
 <g id="floor0">
 <g>
@@ -826,7 +832,8 @@
         </g>
     </g>
 </g>
-<circle id="mapDot" fill="#C1272D" cx="996" cy="841.6" r="21"/>
+<!--<circle id="mapDot" fill="#C1272D" cx="996" cy="841.6" r="21"/>-->
+<path id="mapDot" d="M0 0 L20 10 L40 0 L20 50 Z" fill="darkred"/>
 <g id="artworkDotHolder">
 
 </g>

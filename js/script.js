@@ -3,7 +3,6 @@ if (screen.width <= 699) {
     setTimeout(function(){window.stop();}, 500)
 }
 
-
 var version = "VE Beta0.6.496";
 var isLocked = false;
 var canvas = document.getElementById("mainCanvas")
@@ -18,6 +17,7 @@ var videoElements = [];
 var soundCreated = false;
 
 var rootMesh;
+var loadVideo = true;
 
 var cupTip;
 var cupDrain;
@@ -27,9 +27,80 @@ var redWineMat;
 var noDrank = 0;
 
 var currentTopPage = 2;
-var PDFPages;
+var PDFPieces;
+var openPDF;
 
 var fpsText;
+var readyToRender = false;
+
+
+//var countDownDate = new Date("Jun 19, 2020 18:00:00").getTime();
+var countDownDate = new Date("Jun 7, 2020 02:29:00").getTime();
+var initialised = false;
+var testing = false;
+
+if(!testing){
+
+var countdown = setInterval(function() {
+
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("countdownTimer").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+
+    if(!initialised & distance < 300000){
+        initialised = true;
+        init()
+    }
+
+    if (distance < 0) {
+        clearInterval(countdown);
+        document.getElementById("countdownTimer").innerHTML = "Starting";
+        document.getElementById("countdown").style.display = "none";
+        readyToRender = true;
+    }
+}, 1000);
+
+}else{
+    document.getElementById("countdown").style.display = "none";
+    initialised = true;
+    init()
+    setTimeout(function(){readyToRender = true;},1000)
+}
+
+function getNoStudents(){
+    var Students = [];
+    const distinct = function(value, index, self){
+        return self.indexOf(value) === index;
+    }
+    for(i=0;i<pieceData.length;i++){
+        Students.push(pieceData[i][1])
+    }
+        return Students.filter(distinct).length + " Students displaying in this exhibition"
+}
+
+console.log("We have "+getNoStudents()+" students displaying their work!")
+console.log("That's over "+Math.floor((pieceData.length-1)/10)*10+" pieces of work!")
+//console.log("It took over 400 hours of planning, modelling and coding to create this space!")
+//console.log("It features a massive variety of work, styles and personalities!")
+
+
+
+
+
+var rotateArrow = mainOBJ.getElementById("mapDot").parentNode.createSVGTransform();
+rotateArrow.setRotate(0, 20, 25)
+mainOBJ.getElementById("mapDot").transform.baseVal.appendItem(rotateArrow);
+
+var translateArrow = mainOBJ.getElementById("mapDot").parentNode.createSVGTransform();    
+translateArrow.setTranslate(0, 0)
+mainOBJ.getElementById("mapDot").transform.baseVal.appendItem(translateArrow);
 
 var pieces = [];
 var pieceData;
@@ -45,6 +116,7 @@ let xAddPos = 0;
     let translateTransform;
 
 function init(){
+    console.log("Started loading")
 scene = new BABYLON.Scene(engine);
 
 var advancedTexture = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("myUI");
@@ -142,25 +214,26 @@ galleryMesh = BABYLON.SceneLoader.ImportMesh("", "models/", "BorosBunker.babylon
                 var pieceTitle = pieceData[index][0];
                 var pieceMedium = pieceData[index][5];
                 var pieceArtist = pieceData[index][1];
-                var pieceFile = "pieces/"+pieceData[index][6] || "pieces/holderIMG.jpg";
+                var pieceFile = "models/"+pieceData[index][6] || "pieces/holderIMG.jpg";
                 var pieceFloor = artworkFloorCheck(item);
 
                 pieceList.innerHTML += '<div onmouseout="listOut('+index+')" onmouseover="listHover('+index+')" id="'+"searchResult"+index+'" class="pieceHolder"><div class="pieceImage" style="background-image: url('+pieceFile+');"></div><div class="pieceDetails"><h1 class="pieceTitle">'+pieceTitle+'</h1><h2 class="pieceMedium">'+pieceMedium+'</h2><h3 class="pieceArtist">'+pieceArtist+'</h3><h2 class="pieceFloor">'+pieceFloor+'</h2></div></div>';
 
                 pieces.push(item);
 
-                
-                if(pieceData[index][2]){
+                if(loadVideo){
+                    if(pieceData[index][2]){
 
-                    var videoTestMat = new BABYLON.StandardMaterial("mat", scene);
-                    var videoTexture = new BABYLON.VideoTexture("vidMat", "pieces/"+pieceData[index][3], scene, true, false, BABYLON.VideoTexture.TRILINEAR_SAMPLINGMODE, {loop: true, autoUpdateTexture: true});
-                    videoTestMat.diffuseTexture = videoTexture
-                    videoTestMat.roughness = 1;
-                    videoTexture.video.muted = true;
-                    item.material = videoTestMat;
+                        var videoTestMat = new BABYLON.StandardMaterial("mat", scene);
+                        var videoTexture = new BABYLON.VideoTexture("vidMat", "pieces/"+pieceData[index][3], scene, true, false, BABYLON.VideoTexture.TRILINEAR_SAMPLINGMODE, {loop: true, autoUpdateTexture: true})
+                        videoTestMat.diffuseTexture = videoTexture
+                        videoTestMat.roughness = 1;
+                        videoTexture.video.muted = true;
+                        item.material = videoTestMat;
 
-                    videoElements.push([videoTexture]);//, item]);
+                        videoElements.push([videoTexture]);//, item]);
 
+                    }
                 }
 
                 var listedItem = [
@@ -376,7 +449,7 @@ window.addEventListener("click", function () {
         }else if (pickResult.hit && pickResult.pickedMesh.name.includes("PDF")) {
             pieceDisplayed = true;
             document.exitPointerLock();
-            PDFDisplay()
+            PDFDisplay(pickResult.pickedMesh.name)
         }
     }
 });
@@ -404,27 +477,34 @@ scene.executeWhenReady(function(){
 
     setTimeout(function(){optimizer.start()}, 500);
     
-    
-    
 });
+
+
 
 return scene;
 };
 
-init();
+
+
 
 engine.runRenderLoop(function(){
-    fpsText.text = engine.getFps().toFixed() + " fps";
-    if(camera.position.y < 0){
-        camera.position = new BABYLON.Vector3(0,8,0);
-        camera.setTarget = new BABYLON.Vector3(0,8,0);
-        camera.rotation.x = 0;
-        camera.rotation.y = 0;
+    if(readyToRender){
+        fpsText.text = engine.getFps().toFixed() + " fps";
+        if(camera.position.y < 0){
+            camera.position = new BABYLON.Vector3(0,8,0);
+            camera.setTarget = new BABYLON.Vector3(0,8,0);
+            camera.rotation.x = 0;
+            camera.rotation.y = 0;
+        }
+        scene.render();
+    
     }
-    scene.render();
-    
-    
 });
+
+
+
+
+
 
 window.addEventListener("resize", function(){
     engine.resize();
@@ -454,11 +534,11 @@ function pieceDisplay(refNo) {
     }else{
         mainVid.style.display = "none";
         mainImg.style.display = "block";
-        mainImg.src = "pieces/"+pieceData[index][3];
+        mainImg.src = "models/"+pieceData[index][3];
     }
 }
 
-function PDFDisplay(){
+function PDFDisplay(id){
     document.getElementById("mainOBJ").style.display = "none";
     document.getElementById("pieceListContainer").style.opacity = 0;
     document.getElementById("container").style.height = "auto";
@@ -472,11 +552,14 @@ function PDFDisplay(){
     mainVid.style.display = "none";
     mainImg.style.display = "none";
 
-    title.innerHTML = "Recipes for Disaster";
-    name.innerHTML = "Chelsea Jacques";
-    about.innerHTML = "Recipe book consisting of recipes for events that are not normally celebrated, for example ‘Friday 13th’. Each of the recipes enclosed are not useable, but represented in the usual, aesthetically pleasing manner, as a comment on the growth of kitchen ‘tutorials’.";
+    title.innerHTML = PDFPieces[id][0].title;
+    name.innerHTML = PDFPieces[id][0].name;
+    about.innerHTML = PDFPieces[id][0].about;
+    document.getElementById("pageOne").src = PDFPieces[id][0].folder+PDFPieces[id][1];
+    document.getElementById("pageTwo").src = PDFPieces[id][0].folder+PDFPieces[id][2];
     document.getElementById("PDFView").style.display = "flex";
-    
+    currentTopPage = 2;
+    openPDF = id;
 }
 
 function loadPauseMenu() {
@@ -511,8 +594,13 @@ function loadPauseMenu() {
     posY = scene.cameras[0].position.z;
 
     newPoint = locToPoint(posX,posY)
-    mainOBJ.getElementById("mapDot").setAttribute("cx", newPoint.x)
-    mainOBJ.getElementById("mapDot").setAttribute("cy", newPoint.y)
+    //mainOBJ.getElementById("mapDot").setAttribute("cx", newPoint.x)
+    // mainOBJ.getElementById("mapDot").setAttribute("cy", newPoint.y)
+
+    // Map Arrow //
+    mainOBJ.getElementById("mapDot").transform.baseVal.getItem(0).setTranslate(newPoint.x-20, newPoint.y-25)
+    mainOBJ.getElementById("mapDot").transform.baseVal.getItem(1).setRotate(Number(camera.rotation.y) * (180 / Math.PI), 20, 25)
+    
 
     mainOBJ.getElementById("artworkDotHolder").innerHTML = "";
 
@@ -526,7 +614,7 @@ function loadPauseMenu() {
             var artPosY = item[4].absolutePosition.z;
             var artNewPoint = locToPoint(artPosX,artPosY)
 
-            mainOBJ.getElementById("artworkDotHolder").innerHTML += '<circle id="artworkDot'+itemIndex+'" fill="#4287f5" cx="'+artNewPoint.x+'" cy="'+artNewPoint.y+'" r="21"/>'
+            mainOBJ.getElementById("artworkDotHolder").innerHTML += '<circle id="artworkDot'+itemIndex+'" fill="#4287f5" cx="'+artNewPoint.x+'" cy="'+artNewPoint.y+'" r="15"/>'
         }else{
             document.getElementById(item[0]).getElementsByClassName("pieceFloor")[0].style.color = "grey";
             item[5] = false;
@@ -587,23 +675,21 @@ function checkFloor(object) {
 
 
 function artworkFloorCheck(mesh){
-    var meshYPos = mesh.position.y; //Middle of mesh
-    var meshYScale = mesh.scaling.y; //Height of mesh
-    var meshYL = meshYPos - (meshYScale/2); //Lowest point of mesh
-    var meshYH = meshYPos + (meshYScale/2); //Highest point of mesh
+    var meshYL = mesh.getBoundingInfo().boundingBox.minimumWorld.y; //Lowest point of mesh
+    var meshYH = mesh.getBoundingInfo().boundingBox.maximumWorld.y; //Highest point of mesh
 
     if(meshYL<16){
         if(meshYH<16){
             return "Ground Floor";
-        }else if(meshYH<32){
+        }else if(meshYH<33){
             return "Ground Floor & First Floor"
         }else if(meshYH<50){
             return "Ground Floor, First Floor & Second Floor"
         }else if(meshYH<68){
             return "Ground Floor, First Floor, Second Floor & Third Floor"
         }  
-    }else if(meshYL<32){
-        if(meshYH<32){
+    }else if(meshYL<33){
+        if(meshYH<33){
             return "First Floor";
         }else if(meshYH<50){
             return "First Floor & Second Floor"
@@ -647,11 +733,13 @@ function searchInput(){
 }
 
 function listHover(pieceID){
-    document.getElementById("mainOBJ").getElementById("artworkDot"+pieceID).setAttribute("fill", "#32a852");
+    document.getElementById("mainOBJ").getElementById("artworkDot"+pieceID).setAttribute("fill", "#8e44ad");
+    document.getElementById("mainOBJ").getElementById("artworkDot"+pieceID).setAttribute("r", "30");
 }
 
 function listOut(pieceID){
     document.getElementById("mainOBJ").getElementById("artworkDot"+pieceID).setAttribute("fill", "#4287f5");
+    document.getElementById("mainOBJ").getElementById("artworkDot"+pieceID).setAttribute("r", "15");
 }
 
 
@@ -662,17 +750,17 @@ var PDFBTNRight = document.getElementById("PDFRight")
 
 function PDFLeft() {
     currentTopPage--;
-    pageOne.src = "pieces/cookbook/"+PDFPages[currentTopPage - 2];
-    pageTwo.src = "pieces/cookbook/"+PDFPages[currentTopPage - 1];
+    pageOne.src = PDFPieces[openPDF][0].folder+PDFPieces[openPDF][currentTopPage - 1];
+    pageTwo.src = PDFPieces[openPDF][0].folder+PDFPieces[openPDF][currentTopPage];
     pageCheck();
 }
 
 function PDFRight() {
     currentTopPage++;
-    pageOne.src = "pieces/cookbook/"+PDFPages[currentTopPage - 2];
-    pageTwo.src = "pieces/cookbook/"+PDFPages[currentTopPage - 1];
-    if(currentTopPage < PDFPages.length){
-        new Image().src = "pieces/cookbook/"+PDFPages[currentTopPage];
+    pageOne.src = PDFPieces[openPDF][0].folder+PDFPieces[openPDF][currentTopPage - 1];
+    pageTwo.src = PDFPieces[openPDF][0].folder+PDFPieces[openPDF][currentTopPage];
+    if(currentTopPage < PDFPieces[openPDF].length - 1){
+        new Image().src = PDFPieces[openPDF][0].folder+PDFPieces[openPDF][currentTopPage];
     }
     pageCheck();
 }
@@ -686,9 +774,9 @@ function pageCheck(){
     }
 
     //Right
-    if(currentTopPage === PDFPages.length){
+    if(currentTopPage === PDFPieces[openPDF].length - 1){
         PDFBTNRight.style.display = "none";
-    }else if(currentTopPage < PDFPages.length){
+    }else if(currentTopPage < PDFPieces[openPDF].length - 1){
         PDFBTNRight.style.display = "block";
     }
 }
