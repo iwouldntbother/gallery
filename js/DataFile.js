@@ -6,25 +6,25 @@ pieceData = [
     "Digital video",
     "piece000thumb.jpg"], //000
 
-    ["isolate ur self",
-    "Will Westwood",
+    ["",
+    "Syden deOliveiraColimao",
     false,"piece001.jpg",
-    "Made as a sticker for a vending machine.",
-    "Digital vector image at 300 ppi",
+    "",
+    "",
     "piece001.jpg"],  //001
 
-    ["stay home",
-    "Will Westwood",
+    ["",
+    "Syden deOliveiraColimao",
     false,"piece002.jpg",
-    "Made as a sticker for a vending machine.",
-    "Digital vector image at 300 ppi",
+    "",
+    "",
     "piece002.jpg"],  //002
 
-    ["Wash your hands",
-    "Will Westwood",
+    ["",
+    "Syden deOliveiraColimao",
     false,"piece003.jpg",
-    "Happy birthday",
-    "Digital vector image at 300 ppi",
+    "",
+    "",
     "piece003.jpg"],  //003
 
     ["teapot",
@@ -356,7 +356,7 @@ pieceData = [
     "",
     "piece050.jpg"], //050
 
-    ["'DOGMA'",
+    ["<i>'DOGMA'</i>",
     "Agata Genissel",
     false, "piece051.jpg",
     "''DOGMA': A chaotic rendering of beliefs, motifs, mantras, symbols... made only explicable through its very inexplicable nature. Give yourself to 'DOGMA' and its recursive tendencies. Dogs will be dogs. They believe in their dogmas and live in their dogdom. It only takes one mad dog to think that he is a god.'",
@@ -902,6 +902,595 @@ pieceData = [
     "Oil on board",
     "piece128.jpg"], //128
 
+    ["'ATOMIC DOG'",
+    "Agata Genissel",
+    true, "piece129.mp4",
+    "'The investigations of an atomic dog. Meandering the planes of his existence and of his ragged purpose on this illogical land, enter atomic dog. With atoms in in his eyes, we trust that his youthful canine naivety will be origin to a wisdom beyond that of the oldest and most sacred dogs in the entirety of dogdom. Fallacies for dreams, a little boy indeed.'",
+    "video",
+    "piece129thumb.jpg"], //129
+
+    ["Microscopic Abstraction",
+    "Cerys Organ",
+    false, "piece130.jpg",
+    "Abstraction within microscopic views of nature. I collected imagery from nature using a microscopic camera and combined them together using Photoshop. By enhancing and augmenting the original images, I was able to reveal vibrant levels of colour, some that were not even visible before. It creates a strange psychedelic like effect, your brain cannot comprehend what you are looking at; \"What the heck is that dynamic?\". This micro world, so unfamiliar to us, becomes even harder to distinguish. We don't often notice anything beyond what the eye can see, but once you look closer, you realise just how fascinating and detailed the world around us really is.",
+    "Acrylic Paint on Canvas",
+    "piece130.jpg"], //130
+
+    ["COVID POST I",
+    "Paul Kilsby",
+    false, "piece131.jpg",
+    "In the Seventeenth Century people believed that the Plague was transmitted through the air. They also believed that holding a posy of sweetly scented flowers to their noses could stop them from becoming infected. These posies were beautiful and futile. The Doctrine of Signature asserted that flowers which resembled parts of the body or the disease could be used as a cure. I drew on both of these beliefs as inspiration for this ongoing series, The Coved Posies.",
+    "Digital Photograph",
+    "piece131.jpg"], //131
+
+    ["COVID POSY II",
+    "Paul Kilsby",
+    false, "piece132.jpg",
+    "In the Seventeenth Century people believed that the plague was transmitted through the air. They also believed that holding a posy of sweet smelling flowers to their noses could stop them from becoming infected.",
+    "Digital Photograph",
+    "piece132.jpg"], //132
+
+    ["Cover Posy III",
+    "Paul Kilsby",
+    false, "piece133.jpg",
+    "Same text as first one with each, please",
+    "Digital Photograph",
+    "piece133.jpg"], //133
+
+    ["Wall text for The Cover Posies",
+    "Paul Kilsby",
+    false, "piece134.jpg",
+    "Not applicable",
+    "Not applicable",
+    "piece134.jpg"], //134
+
+    ["Bird Man, Yellow Ghost and Dog",
+    "Anastasia Avdejeva",
+    false, "piece135.jpg",
+    "Three spirits; bird man, yellow ghost and dog. Are they manifestations of different elements of my soul and psyche? Most likely. Just parts of  my spirit enjoying one another's presence, in a chaotic mindscape.",
+    "Oil on Canvas",
+    "piece135.jpg"], //135
+
+    ["Protection wear",
+    "Lilly Doherty",
+    false, "piece136.jpg",
+    "A garment originally inspired by Japanese sculptural designers, neglecting and completely diminishing female shape and creating a whole new one on top of the body, while enforcing the message of social distancing during the corona virus pandemic.",
+    "Fashion garment",
+    "piece136.jpg"], //136
+
+    ["Our purse full of receipts",
+    "Eva Sedgwick-Coward",
+    false, "piece137.jpg",
+    "We find ourselves deep within a consuming society where we have such little attachment to materials, we have become largely blind to the resulting waste. Unless society, as a collective, begins to make drastic changes to the way we live and respond to situations, we will run dry. This series is about the luxury of being able to dispose, use and then replace without a second thought and the negative consequences this natural routine will continue to bring everyday unless we begin to become uncomfortable.",
+    "Mixed media on thermal paper",
+    "piece137.jpg"], //137
+
+    ["Our purse full of receipts",
+    "Eva Sedgwick-Coward",
+    false, "piece138.jpg",
+    "We find ourselves deep within a consuming society where we have such little attachment to materials, we have become largely blind to the resulting waste. Unless society, as a collective, begins to make drastic changes to the way we live and respond to situations, we will run dry. This series is about the luxury of being able to dispose, use and then replace without a second thought and the negative consequences this natural routine will continue to bring everyday unless we begin to become uncomfortable.",
+    "mixed media on thermal paper",
+    "piece138.jpg"], //138
+
+    ["Our purse full of receipts",
+    "Eva Sedgwick-Coward",
+    false, "piece139.jpg",
+    "We find ourselves deep within a consuming society where we have such little attachment to materials, we have become largely blind to the resulting waste. Unless society, as a collective, begins to make drastic changes to the way we live and respond to situations, we will run dry. This series is about the luxury of being able to dispose, use and then replace without a second thought and the negative consequences this natural routine will continue to bring everyday unless we begin to become uncomfortable.",
+    "mixed media on thermal paper",
+    "piece139.jpg"], //139
+
+    ["Bananas",
+    "Sarah Street",
+    false, "piece140.jpg",
+    "After exploring through colour and food, and seeing if foods can be just as appetising looking unnatural, I've created my own series of fruit",
+    "Photography and Digital",
+    "piece140.jpg"], //140
+
+    ["1 Peaceful Orange",
+    "Sarah Street",
+    false, "piece141.jpg",
+    "Photographed Orange",
+    "",
+    "piece141.jpg"], //141
+
+    ["Fashionable Malleability",
+    "Charlie Jones",
+    false, "piece142.jpg",
+    "This piece explores the ever-changing nature of the world of female cosmetic surgery and the power that those obsessive beauty standards have over the psyche. The fluctuating trends in cosmetic surgery highlight the complexity of beauty, as something undefinable, not one thing. The confinement of lockdown meant that I used materials only found in my home, whilst expressing my personal feelings towards the ideas of physical perfection throughout our society and moulding ourselves in order to conform to the ever-changing ideals considered beautiful.",
+    "Mixed Media on Canvas - Tile Grout, Plaster, Concrete, Mod Rock...",
+    "piece142.jpg"], //142
+
+    ["Potemkin: Complementary",
+    "Phoebe Leech",
+    false, "piece143.jpg",
+    "A range of photographs exploring the Suburbs and Urban Sprawl with a focus on Isolation.",
+    "Photography of various sculptures",
+    "piece143.jpg"], //143
+
+    ["Gator Beings and Dagger",
+    "Anastasia Avdejeva",
+    false, "piece144.jpg",
+    "Gator like beings are watching over an adventurer. The adventurer is holding a dagger.",
+    "Oil on Canvas",
+    "piece144.jpg"], //144
+
+    ["Sunset Eyes",
+    "Anastasia Avdejeva",
+    false, "piece145.jpg",
+    "The many eyed sunset appears before the viewer, growing limbs to steady itself upon the earth.",
+    "Oil on Canvas",
+    "piece145.jpg"], //145
+
+    ["Bathtub Series",
+    "Will Lowry",
+    false, "piece146.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece146.jpg"], //146
+
+    ["Bathtub Series",
+    "Will Lowry",
+    false, "piece147.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece147.jpg"], //147
+
+    ["Bathtub Series",
+    "Will Lowry",
+    false, "piece148.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece148.jpg"], //148
+
+    ["In a dark time the eye begins to see Series",
+    "Will Lowry",
+    false, "piece149.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece149.jpg"], //149
+
+    ["In a dark time the eye begins to see Series",
+    "Will Lowry",
+    false, "piece150.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece150.jpg"], //150
+
+    ["In a dark time the eye begins to see Series",
+    "Will Lowry",
+    false, "piece151.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece151.jpg"], //151
+
+    ["In a dark time the eye begins to see Series",
+    "Will Lowry",
+    false, "piece152.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece152.jpg"], //152
+
+    ["In a dark time the eye begins to see Series",
+    "Will Lowry",
+    false, "piece153.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece153.jpg"], //153
+
+    ["Nude",
+    "Will Lowry",
+    false, "piece154.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece154.jpg"], //154
+
+    ["Nude",
+    "Will Lowry",
+    false, "piece155.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece155.jpg"], //155
+
+    ["Nude",
+    "Will Lowry",
+    false, "piece156.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece156.jpg"], //156
+
+    ["Nude",
+    "Will Lowry",
+    false, "piece157.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece157.jpg"], //157
+
+    ["Nude",
+    "Will Lowry",
+    false, "piece158.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece158.jpg"], //158
+
+    ["Nude",
+    "Will Lowry",
+    false, "piece159.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece159.jpg"], //159
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece160.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece160.jpg"], //160
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece161.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece161.jpg"], //161
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece162.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece162.jpg"], //162
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece163.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece163.jpg"], //163
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece164.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece164.jpg"], //164
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece165.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece165.jpg"], //165
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece166.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece166.jpg"], //166
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece167.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece167.jpg"], //167
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece168.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece168.jpg"], //168
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece169.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece169.jpg"], //169
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece170.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece170.jpg"], //170
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece171.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece171.jpg"], //171
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece172.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece172.jpg"], //172
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece173.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece173.jpg"], //173
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece174.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece174.jpg"], //174
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece175.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece175.jpg"], //175
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece176.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece176.jpg"], //176
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece177.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece177.jpg"], //177
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece178.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece178.jpg"], //178
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece179.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece179.jpg"], //179
+
+    ["Purdah",
+    "Will Lowry",
+    false, "piece180.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece180.jpg"], //180
+
+    ["Rituals",
+    "Will Lowry",
+    false, "piece181.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece181.jpg"], //181
+
+    ["Rituals",
+    "Will Lowry",
+    false, "piece182.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece182.jpg"], //182
+
+    ["Rituals",
+    "Will Lowry",
+    false, "piece183.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece183.jpg"], //183
+
+    ["Safe House",
+    "Will Lowry",
+    false, "piece184.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece184.jpg"], //184
+
+    ["Safe House",
+    "Will Lowry",
+    false, "piece185.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece185.jpg"], //185
+
+    ["Safe House",
+    "Will Lowry",
+    false, "piece186.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece186.jpg"], //186
+
+    ["Safe House",
+    "Will Lowry",
+    false, "piece187.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece187.jpg"], //187
+
+    ["Safe House",
+    "Will Lowry",
+    false, "piece188.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece188.jpg"], //188
+
+    ["Safe House",
+    "Will Lowry",
+    false, "piece189.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece189.jpg"], //189
+
+    ["Safe House",
+    "Will Lowry",
+    false, "piece190.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece190.jpg"], //190
+
+    ["Crawl",
+    "Will Lowry",
+    false, "piece191.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece191.jpg"], //191
+
+    ["the bird catcher",
+    "Will Lowry",
+    false, "piece192.jpg",
+    "In this collection of work I explore the psychological by-products of isolation. The domestic space, rather than being a place of familiarity and safety, becomes a cage entrapping the self, drawing out latent anxieties, insecurities and obsessions which the mind was previously too preoccupied to confront.",
+    "",
+    "piece192.jpg"], //192
+
+    ["Anthropocene, stripes",
+    "Emma Baldwin",
+    false, "piece193.jpg",
+    "During Lockdown I walked for an hour a day through a nature reserve in central Oxford. This area of land had previously been the city dump from Victorian times until the 1970's. Each day I found shards of pottery.  The fact that these had been used, held, cooked with, drunk from and then discarded, fascinated me. This is in stark contrast to the items that are discarded there now and the traces that human activity have on our environment. The fragments have been displayed with an archaeological taxonomy in mind.",
+    "",
+    "piece193.jpg"], //193
+
+    ["Anthropocene, Handles",
+    "Emma Baldwin",
+    false, "piece194.jpg",
+    "During Lockdown I walked for an hour a day through a nature reserve in central Oxford. This area of land had previously been the city dump from Victorian times until the 1970's. Each day I found shards of pottery.  The fact that these had been used, held, cooked with, drunk from and then discarded, fascinated me. This is in stark contrast to the items that are discarded there now and the traces that human activity have on our environment. The fragments have been displayed with an archaeological taxonomy in mind.",
+    "",
+    "piece194.jpg"], //194
+
+    ["Anthropocene, Home",
+    "Emma Baldwin",
+    false, "piece195.jpg",
+    "During Lockdown I walked for an hour a day through a nature reserve in central Oxford. This area of land had previously been the city dump from Victorian times until the 1970's. Each day I found shards of pottery.  The fact that these had been used, held, cooked with, drunk from and then discarded, fascinated me. This is in stark contrast to the items that are discarded there now and the traces that human activity have on our environment. The fragments have been displayed with an archaeological taxonomy in mind.",
+    "",
+    "piece195.jpg"], //195
+
+    ["Anthropocene",
+    "Emma Baldwin",
+    false, "piece196.jpg",
+    "During Lockdown I walked for an hour a day through a nature reserve in central Oxford. This area of land had previously been the city dump from Victorian times until the 1970's. Each day I found shards of pottery.  The fact that these had been used, held, cooked with, drunk from and then discarded, fascinated me. This is in stark contrast to the items that are discarded there now and the traces that human activity have on our environment. The fragments have been displayed with an archaeological taxonomy in mind.",
+    "",
+    "piece196.jpg"], //196
+
+    ["Anthropocene, Willow",
+    "Emma Baldwin",
+    false, "piece197.jpg",
+    "During Lockdown I walked for an hour a day through a nature reserve in central Oxford. This area of land had previously been the city dump from Victorian times until the 1970's. Each day I found shards of pottery.  The fact that these had been used, held, cooked with, drunk from and then discarded, fascinated me. This is in stark contrast to the items that are discarded there now and the traces that human activity have on our environment. The fragments have been displayed with an archaeological taxonomy in mind.",
+    "",
+    "piece197.jpg"], //197
+
+    ["Anthropocene, English Blue",
+    "Emma Baldwin",
+    false, "piece198.jpg",
+    "During Lockdown I walked for an hour a day through a nature reserve in central Oxford. This area of land had previously been the city dump from Victorian times until the 1970's. Each day I found shards of pottery.  The fact that these had been used, held, cooked with, drunk from and then discarded, fascinated me. This is in stark contrast to the items that are discarded there now and the traces that human activity have on our environment. The fragments have been displayed with an archaeological taxonomy in mind.",
+    "",
+    "piece198.jpg"], //198
+
+    ["Anthropocene, Text",
+    "Emma Baldwin",
+    false, "piece199.jpg",
+    "During Lockdown I walked for an hour a day through a nature reserve in central Oxford. This area of land had previously been the city dump from Victorian times until the 1970's. Each day I found shards of pottery.  The fact that these had been used, held, cooked with, drunk from and then discarded, fascinated me. This is in stark contrast to the items that are discarded there now and the traces that human activity have on our environment. The fragments have been displayed with an archaeological taxonomy in mind.",
+    "",
+    "piece199.jpg"], //199
+
+    ["MRS_Extract",
+    "Hannah Kinch James",
+    false, "piece200.jpg",
+    "",
+    "Mixed media frames with light",
+    "piece200.jpg"], //200
+
+    ["MRS_Extract",
+    "Hannah Kinch James",
+    false, "piece201.jpg",
+    "",
+    "Mixed media frames with light",
+    "piece201.jpg"], //201
+
+    ["MRS_Extract",
+    "Hannah Kinch James",
+    false, "piece202.jpg",
+    "",
+    "Mixed media frames with light",
+    "piece202.jpg"], //202
+
+    ["MRS_Extract",
+    "Hannah Kinch James",
+    false, "piece203.jpg",
+    "",
+    "Mixed media frames with light",
+    "piece203.jpg"], //203
+
+    ["MRS_Extract",
+    "Hannah Kinch James",
+    false, "piece204.jpg",
+    "",
+    "Mixed media frames with light",
+    "piece204.jpg"], //204
+
+    ["MRS_Extract",
+    "Hannah Kinch James",
+    false, "piece205.jpg",
+    "",
+    "Mixed media frames with light",
+    "piece205.jpg"], //205
+
+    ["MRS_Extract",
+    "Hannah Kinch James",
+    false, "piece206.jpg",
+    "",
+    "Mixed media frames with light",
+    "piece206.jpg"], //206
+
+    ["MRS_Extract",
+    "Hannah Kinch James",
+    false, "piece207.jpg",
+    "",
+    "Mixed media frames with light",
+    "piece207.jpg"], //207
+
+    ["MRS_Extract",
+    "Hannah Kinch James",
+    false, "piece208.jpg",
+    "",
+    "Mixed media frames with light",
+    "piece208.jpg"], //208
+
+    ["MRS_Depth",
+    "Hannah Kinch James",
+    false, "piece209.jpg",
+    "",
+    "Digital prints",
+    "piece209.jpg"], //209
+
+    ["MRS_Depth",
+    "Hannah Kinch James",
+    false, "piece210.jpg",
+    "",
+    "Digital prints",
+    "piece210.jpg"], //210
+
+    ["MRS_Depth",
+    "Hannah Kinch James",
+    false, "piece211.jpg",
+    "",
+    "Digital prints",
+    "piece211.jpg"], //211
+
+    ["MRS_Layer",
+    "Hannah Kinch James",
+    false, "piece212.jpg",
+    "",
+    "Mixed media sculpures mounted horizontally",
+    "piece212.jpg"], //212
+    
+
 
 
 
@@ -1077,7 +1666,7 @@ PDF002: [
         about: "Through this project looking at the relationship between nostalgia and the internet, I looked at the development of symbols (often commercial) that become iconic to nostalgia through their role in the internet, the most memorable of which for me was the Microsoft Paint programme window. These symbols seem to be brought back or referenced in post-internet art that I saw, some things even coming back in trend in pop culture. This is common, we often see decades’ fashion and iconography resurging in later years but this seems to be the first time we’ve seen these nostalgic throwback trends come from a time post-internet, and also the first time in my life I’ve been around for both the original time and the resurgence, which I found very interesting. The way we document memories has changed, going from ephemera like ticket stubs to film cameras, but now we tend to hyper-document, taking dozens of photos at each event, even each moment, to the point where you can sense time passing between each snap of a single moment, as opposed to the couple of photos from a whole event that you might used to have. I’m fascinated with the dichotomy between the tangible and sensory way of documenting memories and the newer digital wave of hyper-documentation, and how these two ideas can interact and change each other.",
         folder: "pieces/youth/"
     },
-    "",
+    "0000.jpg",
     "0001.jpg",
     "0002.jpg",
     "0003.jpg",

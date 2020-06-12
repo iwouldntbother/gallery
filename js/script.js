@@ -3,7 +3,7 @@ if (screen.width <= 699) {
     setTimeout(function(){window.stop();}, 500)
 }
 
-var version = "VE Beta0.6.496";
+var version = "© 2020, WWSTWD Studio. All rights reserved";
 var isLocked = false;
 var canvas = document.getElementById("mainCanvas")
 var engine = new BABYLON.Engine(canvas, false);
@@ -36,7 +36,7 @@ var readyToRender = false;
 
 var countDownDate = new Date("Jun 19, 2020 18:00:00").getTime();
 var initialised = false;
-var testing = false;
+var testing = true;
 
 if(!testing){
 
@@ -162,7 +162,7 @@ options.addOptimization(new BABYLON.TextureOptimization(0, 256));
 
 var optimizer = new BABYLON.SceneOptimizer(scene, options);
 
-var light1 = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 1, 0), scene);
+var light1 = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 1, 1), scene);
 light1.intensity = 1;
 camera = new BABYLON.UniversalCamera("FreeCamera", new BABYLON.Vector3(0,8,0), scene);
 camera.speed = 3;
@@ -193,7 +193,8 @@ galleryMesh = BABYLON.SceneLoader.ImportMesh("", "models/", "BorosBunker.babylon
 
     meshes.forEach(function(item){
         
-
+            item.doNotSyncBoundingInfo = true;
+            item.alwaysSelectAsActiveMesh = true
             item.checkCollisions = true;
             if(item.name.includes("Ramp") || item.name.includes("Barrier")){
                 item.material = invisMat;
@@ -464,6 +465,7 @@ scene.registerBeforeRender(function(){
 scene.executeWhenReady(function(){
     document.getElementById("loadingScreen").style.display = "none";
     console.log("Done Loading");
+    scene.freeActiveMeshes()
 
     videoElements.forEach(function(item){
         item[0].video.play();
@@ -475,10 +477,12 @@ scene.executeWhenReady(function(){
     camera.rotation.y = 0;
 
     setTimeout(function(){optimizer.start()}, 500);
-    
+
 });
 
-
+scene.autoClear = false;
+scene.autoClearDepthAndStencil = false;
+scene.blockMaterialDirtyMechanism = true;
 
 return scene;
 };
@@ -644,25 +648,25 @@ function locToPoint(oldValueX, oldValueY){
 function checkFloor(object) {
     var heightPos = object.position.y;
 
-    if(heightPos<15){
+    if(heightPos<16){
         document.getElementById("floor0").style.display = "inline";
         document.getElementById("floor1").style.display = "none";
         document.getElementById("floor2").style.display = "none";
         document.getElementById("floor3").style.display = "none";
         return "Ground Floor";
-    }else if(heightPos>15 && heightPos<30){
+    }else if(heightPos>16 && heightPos<33){
         document.getElementById("floor0").style.display = "none";
         document.getElementById("floor1").style.display = "inline";
         document.getElementById("floor2").style.display = "none";
         document.getElementById("floor3").style.display = "none";
         return "First Floor";
-    }else if(heightPos>30 && heightPos<45){
+    }else if(heightPos>33 && heightPos<51){
         document.getElementById("floor0").style.display = "none";
         document.getElementById("floor1").style.display = "none";
         document.getElementById("floor2").style.display = "inline";
         document.getElementById("floor3").style.display = "none";
         return "Second Floor";
-    }else if(heightPos>45 && heightPos<60){
+    }else if(heightPos>51 && heightPos<68){
         document.getElementById("floor0").style.display = "none";
         document.getElementById("floor1").style.display = "none";
         document.getElementById("floor2").style.display = "none";
@@ -682,7 +686,7 @@ function artworkFloorCheck(mesh){
             return "Ground Floor";
         }else if(meshYH<33){
             return "Ground Floor & First Floor"
-        }else if(meshYH<50){
+        }else if(meshYH<51){
             return "Ground Floor, First Floor & Second Floor"
         }else if(meshYH<68){
             return "Ground Floor, First Floor, Second Floor & Third Floor"
@@ -690,13 +694,15 @@ function artworkFloorCheck(mesh){
     }else if(meshYL<33){
         if(meshYH<33){
             return "First Floor";
-        }else if(meshYH<50){
+        }else if(meshYH<51){
             return "First Floor & Second Floor"
         }else if(meshYH<68){
             return "First Floor, Second Floor & Third Floor"
         }  
-    }else if(meshYL<50){
-        if(meshYH<68){
+    }else if(meshYL<51){
+        if(meshYH<51){
+            return "Second Floor";
+        }else if(meshYH<68){
             return "Second Floor & Third Floor"
         }  
     }else if(meshYL<68){
