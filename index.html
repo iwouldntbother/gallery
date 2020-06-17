@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169720852-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-169720852-1');
+    </script>
     <title>WWSTWD - VE</title>
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link href="css/style.css" rel="stylesheet">
@@ -14,27 +23,7 @@
 </head>
 <body>
 
-    <div id="mobileSupport">
-        <h1>Sorry,<br>
-            mobile devices are not
-            <br>currently supported.<br>
-            To view the gallery<br>
-            please use a desktop<br>
-            or laptop computer.</h1>
-    </div>
-
-    <div id="countdown">
-        <img id="countdownLogo" src="images/padlock.svg">
-        <h1 id="countdownTitle"><span style="opacity: 0.5;">Un</span>locked</h1><br>
-        <h2 id="countdownTimer">--d --h --m --s</h2>
-    </div>
-
-    <div id="loadingScreen">
-        <div id="loadingHolder">
-            <img src="images/loading.gif">
-            <p>Loading</p>
-        </div>
-    </div>
+    <!-- // Menu + Init Screen //-->
 
     <div id="menu">
 
@@ -53,7 +42,7 @@
             </div>
         </div>
         <img id="mainImg" src="">
-        <video id="mainVid" src="" loop autoplay controls></video>
+        <video id="mainVid" src="" loop controls></video>
         <svg id="mainOBJ" version="1.1" id="Layer_2_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 2048 2048" style="enable-background:new 0 0 2048 2048;" xml:space="preserve">
 <style type="text/css">
@@ -831,6 +820,12 @@
             <rect x="1340.2" y="553" class="st0" width="33.7" height="942"/>
         </g>
     </g>
+    <text x="1280" y="1800" fill="#999999" font-size="120" font-weight="700" font-family="Arial, Helvetica, sans-serif">WC</text>
+    <g transform="scale(0.35) translate(800, 680)" fill="#999999">
+		<path d="M365.446,401.998c0,10.092,3.579,18.702,10.711,25.834c7.132,7.139,15.749,10.711,25.845,10.711    c10.081,0,18.698-3.572,25.83-10.711c7.139-7.132,10.711-15.742,10.711-25.834s-3.568-18.702-10.711-25.841    c-7.132-7.132-15.749-10.704-25.83-10.704c-10.096,0-18.713,3.572-25.845,10.704C369.025,383.296,365.446,391.906,365.446,401.998    z"/>
+		<path d="M469.658,78.51c-3.618-3.617-7.898-5.426-12.848-5.426H113.918c-0.193-1.331-0.621-3.756-1.287-7.277    c-0.666-3.523-1.188-6.329-1.569-8.425c-0.383-2.087-1.093-4.611-2.142-7.561c-1.047-2.952-2.284-5.286-3.711-6.995    c-1.425-1.718-3.328-3.189-5.708-4.43c-2.378-1.233-5.092-1.853-8.136-1.853H18.276c-4.952,0-9.234,1.812-12.85,5.424    C1.809,45.583,0,49.868,0,54.816s1.809,9.231,5.426,12.847c3.619,3.617,7.902,5.424,12.85,5.424h58.237l50.532,234.976    c-0.378,0.76-2.329,4.373-5.852,10.848c-3.521,6.475-6.328,12.135-8.42,16.988c-2.093,4.859-3.14,8.616-3.14,11.279    c0,4.948,1.809,9.232,5.424,12.854c3.621,3.606,7.902,5.421,12.851,5.421h18.272h255.815h18.261c4.948,0,9.232-1.814,12.847-5.421    c3.62-3.621,5.427-7.905,5.427-12.854c0-4.949-1.807-9.233-5.427-12.847c-3.614-3.614-7.898-5.428-12.847-5.428h-262.66    c4.57-9.138,6.854-15.222,6.854-18.268c0-1.909-0.238-4.004-0.715-6.283s-1.047-4.805-1.713-7.569    c-0.667-2.752-1.093-4.799-1.283-6.133l298.077-34.831c4.753-0.575,8.658-2.614,11.703-6.14c3.046-3.518,4.565-7.562,4.565-12.133    V91.363C475.082,86.415,473.278,82.132,469.658,78.51z"/>
+		<path d="M109.632,401.998c0,10.092,3.567,18.702,10.706,25.834c7.141,7.139,15.75,10.711,25.841,10.711    c10.085,0,18.699-3.572,25.835-10.711c7.139-7.132,10.71-15.742,10.71-25.834s-3.568-18.702-10.71-25.841    c-7.137-7.132-15.75-10.704-25.835-10.704c-10.09,0-18.704,3.572-25.841,10.704C113.203,383.296,109.632,391.906,109.632,401.998z    "/>
+	</g>
 </g>
 <!--<circle id="mapDot" fill="#C1272D" cx="996" cy="841.6" r="21"/>-->
 <path id="mapDot" d="M0 0 L20 10 L40 0 L20 50 Z" fill="darkred"/>
@@ -844,7 +839,7 @@
         Use <b>WASD</b> to move and the <b>MOUSE</b> to look around<br>
         <b>Clicking</b> while looking at a piece of work will bring up more details on that piece<br>
         If you get stuck hit <b>R</b> to return back here<br><br>
-        This space is an amalgamation of over 400 hours of work;<br>
+        This space is an amalgamation of nearly 500 hours of work;<br>
         planning, designing, coding and testing.<br>
         I wanted to thank everyone that has their work on display here,<br>
         I'm honored to have the opportunity to create this space for everyone.<br>
@@ -865,8 +860,15 @@
                 
             </div>
             
+            
+
             <div>
                 <h1 id="pieceListResultInfo">1 Result</h1>
+            </div>
+
+            <div id="QRCodeHolder">
+                <div id="QRCode"></div>
+                <p>Scan this on your phone to leave a review!</p>
             </div>
 
         </div>
@@ -875,8 +877,109 @@
         
     </div>
 
+    <!-- // Shop Confirmation //-->
 
+    <div id="confirmation">
+        <div id="confirmClose" onclick="document.getElementById('confirmation').style.top = '-100vh';resetShop();canvas.requestPointerLock"></div>
+        
+        <div id="confirmHolder">
+            <h1>Thank you!</h1>
+            <p>Your download should start sortly,<br>
+            if it doesn't start within 5 seconds <a onclick="downloadRetry()" href="#">click here</a>.</p>
+        </div>
+    </div>
     
+    <!-- // Shop //-->
+    
+    <div id="shop">
+
+        <div id="basketList">
+            <h1>Basket</h1>
+            <div id="basketHolder">
+            </div>
+            <div id="basketSubTotal">
+                <p id="basketSubPrice">0.00</p>
+            </div>
+            <p id="basketCount">Your basket is empty</p>
+        </div>
+
+        <div id="shopContainer">
+            <div id="shopSearch">
+                <input id="shopSearch" name="shopSearch" type="text" placeholder="Search..." oninput="shopSearch()">
+            </div>
+            <div id="shopHolder">
+                <div id="aboutShop">
+                    <p>Buy High Resolution<sup style="font-size: 1vh;">1</sup> copies of some of the work on display,<br>
+                    All proceeds will go to support Black Lives Matter Charities<br>
+                    <br>
+                    After payment is confirmed a download will start with a<br>
+                    resolution copy of each piece you buy.<br>
+                    <span style="font-size: 1vh;"><i>(Payments are made through PayPal, although an account is not required,<br>
+                All payments include buyer protection through PayPal, see <a href="https://www.paypal.com/uk/webapps/mpp/paypal-safety-and-security" target="_blank">Here</a>)</i></span></p>
+                </div>
+                
+            </div>
+            <p style="font-size: 1vh;">1: The resolution of the images you will recive can be found in the bottom left of the preview image</p>
+        </div>
+
+        <div id="checkout">
+            <div id="checkoutDetails">
+                
+                
+                
+                <button id="formConfirmButton" onclick="checkDetails()">Confirm Selection</button>
+                <p id="formError"></p>
+            </div>
+            <div id="paypal-button-container"></div>
+            <span style="color: gray;font-size: 1vh;">PayPal may use cookies to function</span>
+        </div>
+        
+    </div>
+
+    <!-- // Loading Sceen //-->
+
+    <div id="loadingScreen">
+        <div id="loadingHolder">
+            <img src="images/loading.gif">
+            <p id="loadingText">Loading</p>
+        </div>
+        
+    </div>
+
+    <!-- // Countdown //-->
+    
+    <div id="countdown">
+        <img id="countdownLogo" src="images/padlock.svg">
+        <h1 id="countdownTitle"><span style="opacity: 0.5;">Un</span>locked</h1><br>
+        <h2 id="countdownTimer">--d --h --m --s</h2>
+        <audio id="langloop" src="pieces/langloop.mp3" loop></audio>
+        <div id="playLangloop" onclick="playlangloop()"></div>
+        <script>
+            langloopPlaying = false;
+            function playlangloop(){
+                if (langloopPlaying) {
+                    document.getElementById('langloop').pause();
+                    document.getElementById('playLangloop').style.backgroundImage = "url('images/muted.svg')"
+                    langloopPlaying = false;
+                }else{
+                    document.getElementById('langloop').play();
+                    document.getElementById('playLangloop').style.backgroundImage = "url('images/sound.svg')"
+                    langloopPlaying = true;
+                }
+            }
+        </script>
+    </div>
+
+    <!-- // Mobile Support //-->
+    
+    <div id="mobileSupport">
+        <h1>Sorry,<br>
+            mobile devices are not
+            <br>currently supported.<br>
+            To view the gallery<br>
+            please use a desktop<br>
+            or laptop computer.</h1>
+    </div>
     
     <div id="helpDiv">
     <h4 id="helpText">Click anywhere to start</h4>
@@ -889,6 +992,10 @@
     </div>
 
     <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/FileSaver.js"></script>
+    <script type="text/javascript" src="js/jszip.js"></script>
+    <script type="text/javascript" src="js/jszip-utils.js"></script>
+    <script type="text/javascript" src="https://www.paypal.com/sdk/js?client-id=AfORMq0o41KmQW-kqQBgHbJTCtX6GZ56gtCXTgT3DsGTHfZr-IeqZ3gLcDs9Vt70SPzYg_k3fndoxmot&currency=GBP"></script>
     <script type="text/javascript" src="js/babylon.js"></script>
     <script type="text/javascript" src="js/babylonjs.loaders.min.js"></script>
     <script type="text/javascript" src="js/babylon.gui.min.js"></script>
