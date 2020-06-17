@@ -63,6 +63,7 @@ body {
     background-position: center;
     background-size: contain;
     background-image: url('../images/muted.svg');
+    cursor: pointer;
 }
 
 
