@@ -73,6 +73,7 @@ if (screen.width <= 699) {
             document.getElementById("countdown").style.display = "none";
             initialised = true;
             init()
+            document.getElementById("langloop").pause()
             setTimeout(function(){readyToRender = true;},1000)
             clearInterval(countdown);
         }
@@ -113,6 +114,7 @@ var countdown = setInterval(function() {
     document.getElementById("countdown").style.display = "none";
     initialised = true;
     init()
+    document.getElementById("langloop").pause()
     setTimeout(function(){readyToRender = true;},1000)
 }
 

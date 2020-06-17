@@ -1574,7 +1574,12 @@ var pieceData = [
     "",
     "piece224.jpg"], //224
 
-
+    ["Facial Degradation",
+    "Charlie Jones",
+    false,"piece225.jpg",
+    "A seiries exploring the degradation of something temporary, expressing the minute changes that accour over time.",
+    "Wax and plaster",
+    "piece225.jpg"],  //225
 
 
 
