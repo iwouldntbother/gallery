@@ -1,7 +1,7 @@
-pieceData = [
+var pieceData = [
     ["Kiosk",
     "Will Westwood",
-    true,"piece000.mp4",
+    true,"piece000.webm",
     "This project took me too long.",
     "Digital video",
     "piece000thumb.jpg"], //000
@@ -27,12 +27,12 @@ pieceData = [
     "",
     "piece003.jpg"],  //003
 
-    ["teapot",
+    ["2 (1)",
     "Steve Broughton",
-    false,"piece004.jpg",
-    "Teapot wot stevie B made.",
-    "Fired clay scanned into digital model",
-    "piece004.jpg"],  //004
+    false,"steve2thumb.jpg",
+    "In this work I wanted the analog and digital to start a relationship and have babies. These babies are the above titled variants of 1. and 2. I have always been fascinated with the translation between the two, the way they can cross over through to the digital realm and back to the material world with little resistance and what this means for the fate of an object. With the likes of 3D printing and CNC machines becoming more commonplace what does this mean for analog makers? Is the handmade something that will always be a respected method of creating? What will the human relationship to the digital world look like in times to come? The works centre around a 1 or 2 meter wooden baton. This rigid piece of wood, that has been faded and distorted in a lot of the pieces is a demonstration of the distance that should be observed when social distancing. I wanted to ask the question of what makes social distancing social, by creating objects that when viewed in a physical space would enforce distance between people which in the digital world is of no consequence.",
+    "OBJ 3D Mesh",
+    "steve2thumb.jpg"],  //004
 
     ["Unknown",
     "Could be anyone",
@@ -64,7 +64,7 @@ pieceData = [
 
     ["Don't get distracted",
     "Suzanne Elven",
-    true, "piece009.mp4",
+    true, "piece009.webm",
     "'Don't get distracted' plays with the overload of information we encounter each day, and the anxiety which comes from being unable to process so much. I am responding to the role of virtual platforms in forcing so much onto us, and the space all this information takes in my personal reality. Living in a post-internet era, I'm exploring the feeling of scrolling unlimitedly through different social algorithms, floating between viral videos, warnings of human extinction, people being 'cancelled', and personalised ads. I am trying to visually express the feeling of being desensitised and overwhelmed by so much information.",
     "Film",
     "piece009thumb.jpg"], //009
@@ -274,7 +274,7 @@ pieceData = [
 
     ["LIMINAL SPACE",
     "Vanessa Esposito",
-    true, "piece039.mp4",
+    true, "piece039.webm",
     "A liminal space is a transitional space a feeling of being in between one point in time and another. It is a space beyond and an entrance into the unknown. It can be experienced as fluid and non directional, a vague, unclear space. Often exciting and exhilarating but also disconcerting and disorienting. But there is often the feeling of just being on the verge of something...",
     "Cyanotype light and shadow digital manipulations.",
     "piece039thumb.jpg"], //039
@@ -302,7 +302,7 @@ pieceData = [
 
     ["Apparition of the Violin",
     "Will Thorborn",
-    true, "piece043.mp4",
+    true, "piece043.webm",
     "A wire angel being manipulated with strings into playing the song Shadows by Lindsey Stirling.",
     "",
     "piece043thumb.jpg"], //043
@@ -314,24 +314,24 @@ pieceData = [
     "Mixed media on canvas",
     "piece044.jpg"], //044
 
-    ["'dog eat dog eat cat eat dog'",
+    ["dog eat dog eat cat eat dog",
     "Agata Genissel",
     false, "piece045.jpg",
-    "'A skittish exploration of anthropomorphic creatures *notably those of a canine-esque nature* frozen in time - or rather traversing its planes - the 'BYTE' trilogy meshes dimension and imagery in frenetic harmony. Each piece appears both comedic and oddly haunting in its construction, resembling a post-internet Rorschach test for the interpreter.'",
+    "A skittish exploration of anthropomorphic creatures *notably those of a canine-esque nature* frozen in time - or rather traversing its planes - the 'BYTE' trilogy meshes dimension and imagery in frenetic harmony. Each piece appears both comedic and oddly haunting in its construction, resembling a post-internet Rorschach test for the interpreter.",
     "digital",
     "piece045.jpg"], //045
 
-    ["'DOG + MENACE'",
+    ["DOG + MENACE",
     "Agata Genissel",
     false, "piece046.jpg",
-    "'A skittish exploration of anthropomorphic creatures *notably those of a canine-esque nature* frozen in time - or rather traversing its planes - the 'BYTE' trilogy meshes dimension and imagery in frenetic harmony. Each piece appears both comedic and oddly haunting in its construction, resembling a post-internet Rorschach test for the interpreter.'",
+    "A skittish exploration of anthropomorphic creatures *notably those of a canine-esque nature* frozen in time - or rather traversing its planes - the 'BYTE' trilogy meshes dimension and imagery in frenetic harmony. Each piece appears both comedic and oddly haunting in its construction, resembling a post-internet Rorschach test for the interpreter.",
     "digital",
     "piece046.jpg"], //046
 
-    ["'the mystic's bark'",
+    ["the mystic's bark",
     "Agata Genissel",
     false, "piece047.jpg",
-    "'A skittish exploration of anthropomorphic creatures *notably those of a canine-esque nature* frozen in time - or rather traversing its planes - the 'BYTE' trilogy meshes dimension and imagery in frenetic harmony. Each piece appears both comedic and oddly haunting in its construction, resembling a post-internet Rorschach test for the interpreter.'",
+    "A skittish exploration of anthropomorphic creatures *notably those of a canine-esque nature* frozen in time - or rather traversing its planes - the 'BYTE' trilogy meshes dimension and imagery in frenetic harmony. Each piece appears both comedic and oddly haunting in its construction, resembling a post-internet Rorschach test for the interpreter.",
     "digital",
     "piece047.jpg"], //047
 
@@ -350,16 +350,16 @@ pieceData = [
     "piece049.jpg"], //049
 
     ["",
-    "Paul Kilsby",
+    "",
     false, "piece050.jpg",
     "",
     "",
     "piece050.jpg"], //050
 
-    ["<i>'DOGMA'</i>",
+    ["<i>DOGMA</i>",
     "Agata Genissel",
     false, "piece051.jpg",
-    "''DOGMA': A chaotic rendering of beliefs, motifs, mantras, symbols... made only explicable through its very inexplicable nature. Give yourself to 'DOGMA' and its recursive tendencies. Dogs will be dogs. They believe in their dogmas and live in their dogdom. It only takes one mad dog to think that he is a god.'",
+    "DOGMA': A chaotic rendering of beliefs, motifs, mantras, symbols... made only explicable through its very inexplicable nature. Give yourself to 'DOGMA' and its recursive tendencies. Dogs will be dogs. They believe in their dogmas and live in their dogdom. It only takes one mad dog to think that he is a god.",
     "digital",
     "piece051.jpg"], //051
 
@@ -428,7 +428,7 @@ pieceData = [
 
     ["Surveillance",
     "Ellie Hall",
-    true, "piece061.mp4",
+    true, "piece061.webm",
     "This project was an experiment in using fashion to distort and disguise against surveillance. In today's world we are increasingly watched through social media and CCTV and this project experiments with how we could protect ourselves against surveillance using fashion. I wanted to approach the project from a futuristic standpoint, thinking about how surveillance could further mutate using new technologies and how future generations might deal with hyper-surveillance.",
     "Fashion Piece/ Video",
     "piece061thumb.jpg"], //061
@@ -449,7 +449,7 @@ pieceData = [
 
     ["Missed, Memory, Mist",
     "Charlotte Booth",
-    true, "piece064.mp4",
+    true, "piece064.webm",
     "This short film aims to represent themes of nostalgia, a stereotypically warm feeling we experience when reminiscing the past, but also a deeply troubling concept for many. By using old home videos and universal themes of childhood, I aim to portray a duration of time experienced as dreamlike, intangible memories, which become more desirable, yet more impossible to grasp each time we revisit them. This piece links present with past, evoking an ethereal, haunting quality only experienced by the present's link to memories. While material or artificial objects and surroundings may remain the same, they lack the essence to evoke emotions such as the memories or relationships we have with people. A play on the words 'missed' and 'mist' explores how like mist, memories are tangibly impossible to access, we cannot grasp them, and therefore these moments are forever missed.",
     "Film",
     "piece064thumb.jpg"], //064
@@ -461,12 +461,12 @@ pieceData = [
     "",
     "piece065.jpg"], //065
 
-    ["behind the mask",
-    "Thomas Hadland",
-    false, "piece066.jpg",
-    "Due to these strange and challenging times, this painting is a portrayal of the coronavirus pandemic and the importance of the face mask. Not only is this a reference to medical protection and Covid-19, but it also reflects on global issues such as terrorism, racism and the riot and protests, especially in the U.S. This painting also hints the damage the world and economy is currently experiencing.",
-    "",
-    "piece066.jpg"], //066
+    ["2 (2)",
+    "Steve Broughton",
+    false, "steve2thumb.jpg",
+    "In this work I wanted the analog and digital to start a relationship and have babies. These babies are the above titled variants of 1. and 2. I have always been fascinated with the translation between the two, the way they can cross over through to the digital realm and back to the material world with little resistance and what this means for the fate of an object. With the likes of 3D printing and CNC machines becoming more commonplace what does this mean for analog makers? Is the handmade something that will always be a respected method of creating? What will the human relationship to the digital world look like in times to come? The works centre around a 1 or 2 meter wooden baton. This rigid piece of wood, that has been faded and distorted in a lot of the pieces is a demonstration of the distance that should be observed when social distancing. I wanted to ask the question of what makes social distancing social, by creating objects that when viewed in a physical space would enforce distance between people which in the digital world is of no consequence.",
+    "OBJ 3D Mesh",
+    "steve2thumb.jpg"], //066
 
     ["Accumulation",
     "Izzy van Zijl",
@@ -694,7 +694,7 @@ pieceData = [
 
     ["PICA",
     "Charlotte Lindon",
-    true, "piece099.mp4",
+    true, "piece099.webm",
     "I wanted to produce a video is to bring awareness to the eating disorder PICA. These hair in the mouth pieces were inspired by the abjection theory by Julia Kristeva. The thought of hair being disgusting when off the body as opposed to being seen as beautiful on the head interested me. The line between life and death is what people are disturbed by, so by disturbing people I could show the disorder, not to glamorize but solely bring awareness to people that need help with this. Individuals with pica crave non-food substances, such as dirt, soil, chalk, soap, paper, cloth, wool, pebbles and hair. Individuals with pica may be at an increased risk of poisoning, infections, gut injuries, and nutritional deficiencies. Depending on the substances ingested, pica may be fatal.",
     "Digital",
     "piece099thumb.jpg"], //099
@@ -702,21 +702,21 @@ pieceData = [
     ["PICA",
     "Charlotte Lindon",
     false, "piece100.jpg",
-    "Please refer to my other video submission form, as these are the photos to go along with it.",
+    "These hair in the mouth pieces were inspired by the abjection theory by Julia Kristeva. The thought of hair being disgusting when off the body as opposed to being seen as beautiful on the head interested me. The line between life and death is what people are disturbed by, so by disturbing people I could show the disorder, not to glamorize but solely bring awareness to people that need help with this. Individuals with pica crave non-food substances, such as dirt, soil, chalk, soap, paper, cloth, wool, pebbles and hair. Individuals with pica may be at an increased risk of poisoning, infections, gut injuries, and nutritional deficiencies. Depending on the substances ingested, pica may be fatal.",
     "Digital",
     "piece100.jpg"], //100
 
     ["PICA",
     "Charlotte Lindon",
     false, "piece101.jpg",
-    "Please refer to my other video form, as these are the photos to go along with it.",
+    "These hair in the mouth pieces were inspired by the abjection theory by Julia Kristeva. The thought of hair being disgusting when off the body as opposed to being seen as beautiful on the head interested me. The line between life and death is what people are disturbed by, so by disturbing people I could show the disorder, not to glamorize but solely bring awareness to people that need help with this. Individuals with pica crave non-food substances, such as dirt, soil, chalk, soap, paper, cloth, wool, pebbles and hair. Individuals with pica may be at an increased risk of poisoning, infections, gut injuries, and nutritional deficiencies. Depending on the substances ingested, pica may be fatal.",
     "",
     "piece101.jpg"], //101
 
     ["PICA",
     "Charlotte Lindon",
     false, "piece102.jpg",
-    "Please refer to my other video form, as these are the photos to go along with it.",
+    "These hair in the mouth pieces were inspired by the abjection theory by Julia Kristeva. The thought of hair being disgusting when off the body as opposed to being seen as beautiful on the head interested me. The line between life and death is what people are disturbed by, so by disturbing people I could show the disorder, not to glamorize but solely bring awareness to people that need help with this. Individuals with pica crave non-food substances, such as dirt, soil, chalk, soap, paper, cloth, wool, pebbles and hair. Individuals with pica may be at an increased risk of poisoning, infections, gut injuries, and nutritional deficiencies. Depending on the substances ingested, pica may be fatal.",
     "Digital",
     "piece102.jpg"], //102
 
@@ -904,7 +904,7 @@ pieceData = [
 
     ["'ATOMIC DOG'",
     "Agata Genissel",
-    true, "piece129.mp4",
+    true, "piece129.webm",
     "'The investigations of an atomic dog. Meandering the planes of his existence and of his ragged purpose on this illogical land, enter atomic dog. With atoms in in his eyes, we trust that his youthful canine naivety will be origin to a wisdom beyond that of the oldest and most sacred dogs in the entirety of dogdom. Fallacies for dreams, a little boy indeed.'",
     "video",
     "piece129thumb.jpg"], //129
@@ -916,32 +916,32 @@ pieceData = [
     "Acrylic Paint on Canvas",
     "piece130.jpg"], //130
 
-    ["COVID POST I",
+    ["COVID POSY I",
     "Paul Kilsby",
     false, "piece131.jpg",
-    "In the Seventeenth Century people believed that the Plague was transmitted through the air. They also believed that holding a posy of sweetly scented flowers to their noses could stop them from becoming infected. These posies were beautiful and futile. The Doctrine of Signature asserted that flowers which resembled parts of the body or the disease could be used as a cure. I drew on both of these beliefs as inspiration for this ongoing series, The Coved Posies.",
+    "In the Seventeenth Century people believed that the Plague was transmitted through the air. They also believed that holding a posy of sweetly scented flowers to their noses could stop them from becoming infected. These posies were beautiful and futile. The Doctrine of Signatures asserted that flowers which resembled parts of the body or the disease could be used as a cure. I drew on both of these beliefs as inspiration for this ongoing series, The Covid Posies.",
     "Digital Photograph",
     "piece131.jpg"], //131
 
     ["COVID POSY II",
     "Paul Kilsby",
     false, "piece132.jpg",
-    "In the Seventeenth Century people believed that the plague was transmitted through the air. They also believed that holding a posy of sweet smelling flowers to their noses could stop them from becoming infected.",
+    "In the Seventeenth Century people believed that the Plague was transmitted through the air. They also believed that holding a posy of sweetly scented flowers to their noses could stop them from becoming infected. These posies were beautiful and futile. The Doctrine of Signatures asserted that flowers which resembled parts of the body or the disease could be used as a cure. I drew on both of these beliefs as inspiration for this ongoing series, The Covid Posies.",
     "Digital Photograph",
     "piece132.jpg"], //132
 
-    ["Cover Posy III",
+    ["COVID POSY III",
     "Paul Kilsby",
     false, "piece133.jpg",
-    "Same text as first one with each, please",
+    "In the Seventeenth Century people believed that the Plague was transmitted through the air. They also believed that holding a posy of sweetly scented flowers to their noses could stop them from becoming infected. These posies were beautiful and futile. The Doctrine of Signatures asserted that flowers which resembled parts of the body or the disease could be used as a cure. I drew on both of these beliefs as inspiration for this ongoing series, The Covid Posies.",
     "Digital Photograph",
     "piece133.jpg"], //133
 
-    ["Wall text for The Cover Posies",
-    "Paul Kilsby",
+    ["",
+    "",
     false, "piece134.jpg",
-    "Not applicable",
-    "Not applicable",
+    "",
+    "",
     "piece134.jpg"], //134
 
     ["Bird Man, Yellow Ghost and Dog",
@@ -1490,6 +1490,89 @@ pieceData = [
     "Mixed media sculpures mounted horizontally",
     "piece212.jpg"], //212
     
+    ["1 (1)",
+    "Steve Broughton",
+    false, "steve1thumb.jpg",
+    "In this work I wanted the analog and digital to start a relationship and have babies. These babies are the above titled variants of 1. and 2. I have always been fascinated with the translation between the two, the way they can cross over through to the digital realm and back to the material world with little resistance and what this means for the fate of an object. With the likes of 3D printing and CNC machines becoming more commonplace what does this mean for analog makers? Is the handmade something that will always be a respected method of creating? What will the human relationship to the digital world look like in times to come? The works centre around a 1 or 2 meter wooden baton. This rigid piece of wood, that has been faded and distorted in a lot of the pieces is a demonstration of the distance that should be observed when social distancing. I wanted to ask the question of what makes social distancing social, by creating objects that when viewed in a physical space would enforce distance between people which in the digital world is of no consequence.",
+    "OBJ 3D Mesh",
+    "steve1thumb.jpg"], //213
+
+    ["1 (2)",
+    "Steve Broughton",
+    false, "steve1thumb.jpg",
+    "In this work I wanted the analog and digital to start a relationship and have babies. These babies are the above titled variants of 1. and 2. I have always been fascinated with the translation between the two, the way they can cross over through to the digital realm and back to the material world with little resistance and what this means for the fate of an object. With the likes of 3D printing and CNC machines becoming more commonplace what does this mean for analog makers? Is the handmade something that will always be a respected method of creating? What will the human relationship to the digital world look like in times to come? The works centre around a 1 or 2 meter wooden baton. This rigid piece of wood, that has been faded and distorted in a lot of the pieces is a demonstration of the distance that should be observed when social distancing. I wanted to ask the question of what makes social distancing social, by creating objects that when viewed in a physical space would enforce distance between people which in the digital world is of no consequence.",
+    "OBJ 3D Mesh",
+    "steve1thumb.jpg"], //214
+
+    ["1 (3)",
+    "Steve Broughton",
+    false, "steve1thumb.jpg",
+    "In this work I wanted the analog and digital to start a relationship and have babies. These babies are the above titled variants of 1. and 2. I have always been fascinated with the translation between the two, the way they can cross over through to the digital realm and back to the material world with little resistance and what this means for the fate of an object. With the likes of 3D printing and CNC machines becoming more commonplace what does this mean for analog makers? Is the handmade something that will always be a respected method of creating? What will the human relationship to the digital world look like in times to come? The works centre around a 1 or 2 meter wooden baton. This rigid piece of wood, that has been faded and distorted in a lot of the pieces is a demonstration of the distance that should be observed when social distancing. I wanted to ask the question of what makes social distancing social, by creating objects that when viewed in a physical space would enforce distance between people which in the digital world is of no consequence.",
+    "OBJ 3D Mesh",
+    "steve1thumb.jpg"], //215
+
+    ["Microscopic Abstraction",
+    "Cerys Organ",
+    false, "piece216.jpg",
+    "I collected imagery from nature using a microscopic camera. By enhancing and augmenting the original images, I was able to reveal vibrant levels of colour, some that were not even visible before. It creates a strange psychedelic like effect, your brain cannot comprehend what you are looking at; 'What the heck is that dynamic?'. This micro world, so unfamiliar to us, becomes even harder to distinguish. We don't often notice anything beyond what the eye can see, but once you look closer, you realise just how fascinating and detailed the world around us really is.",
+    "Micro-photography, Photoshop",
+    "piece216.jpg"], //216
+
+    ["Microscopic Abstraction",
+    "Cerys Organ",
+    false, "piece217.jpg",
+    "I collected imagery from nature using a microscopic camera. By enhancing and augmenting the original images, I was able to reveal vibrant levels of colour, some that were not even visible before. It creates a strange psychedelic like effect, your brain cannot comprehend what you are looking at; 'What the heck is that dynamic?'. This micro world, so unfamiliar to us, becomes even harder to distinguish. We don't often notice anything beyond what the eye can see, but once you look closer, you realise just how fascinating and detailed the world around us really is.",
+    "Micro-photography, Photoshop",
+    "piece217.jpg"], //217
+
+    ["Microscopic Abstraction",
+    "Cerys Organ",
+    false, "piece218.jpg",
+    "I collected imagery from nature using a microscopic camera. By enhancing and augmenting the original images, I was able to reveal vibrant levels of colour, some that were not even visible before. It creates a strange psychedelic like effect, your brain cannot comprehend what you are looking at; 'What the heck is that dynamic?'. This micro world, so unfamiliar to us, becomes even harder to distinguish. We don't often notice anything beyond what the eye can see, but once you look closer, you realise just how fascinating and detailed the world around us really is.",
+    "Micro-photography, Photoshop",
+    "piece218.jpg"], //218
+
+    ["Microscopic Abstraction",
+    "Cerys Organ",
+    false, "piece219.jpg",
+    "I collected imagery from nature using a microscopic camera. By enhancing and augmenting the original images, I was able to reveal vibrant levels of colour, some that were not even visible before. It creates a strange psychedelic like effect, your brain cannot comprehend what you are looking at; 'What the heck is that dynamic?'. This micro world, so unfamiliar to us, becomes even harder to distinguish. We don't often notice anything beyond what the eye can see, but once you look closer, you realise just how fascinating and detailed the world around us really is.",
+    "Micro-photography, Photoshop",
+    "piece219.jpg"], //219
+
+    ["Microscopic Abstraction",
+    "Cerys Organ",
+    false, "piece220.jpg",
+    "I collected imagery from nature using a microscopic camera. By enhancing and augmenting the original images, I was able to reveal vibrant levels of colour, some that were not even visible before. It creates a strange psychedelic like effect, your brain cannot comprehend what you are looking at; 'What the heck is that dynamic?'. This micro world, so unfamiliar to us, becomes even harder to distinguish. We don't often notice anything beyond what the eye can see, but once you look closer, you realise just how fascinating and detailed the world around us really is.",
+    "Micro-photography, Photoshop",
+    "piece220.jpg"], //220
+
+    ["Microscopic Abstraction",
+    "Cerys Organ",
+    false, "piece221.jpg",
+    "I collected imagery from nature using a microscopic camera. By enhancing and augmenting the original images, I was able to reveal vibrant levels of colour, some that were not even visible before. It creates a strange psychedelic like effect, your brain cannot comprehend what you are looking at; What the heck is that dynamic?'. This micro world, so unfamiliar to us, becomes even harder to distinguish. We don't often notice anything beyond what the eye can see, but once you look closer, you realise just how fascinating and detailed the world around us really is.",
+    "Micro-photography, Photoshop",
+    "piece221.jpg"], //221
+
+    ["Microscopic Abstraction",
+    "Cerys Organ",
+    false, "piece222.jpg",
+    "I collected imagery from nature using a microscopic camera. By enhancing and augmenting the original images, I was able to reveal vibrant levels of colour, some that were not even visible before. It creates a strange psychedelic like effect, your brain cannot comprehend what you are looking at; 'What the heck is that dynamic?'. This micro world, so unfamiliar to us, becomes even harder to distinguish. We don't often notice anything beyond what the eye can see, but once you look closer, you realise just how fascinating and detailed the world around us really is.",
+    "Oil Pastels",
+    "piece222.jpg"], //222
+
+    ["Engraved to Grow",
+    "Xanath Hüffmann Suárez",
+    false, "piece223.jpg",
+    "Some interactions are instantly buried. Others are simply tattooed to our brains. Not dependant on positive or negative, influential or insignificant. Not by choice, purely by chance. Whether it's a familiar or a stranger, it's likely to find a home in our mind and soul.",
+    "",
+    "piece223.jpg"], //223
+
+    ["Engraved to Grow",
+    "Xanath Hüffmann Suárez",
+    false, "piece224.jpg",
+    "Some interactions are instantly buried. Others are simply tattooed to our brains. Not dependant on positive or negative, influential or insignificant. Not by choice, purely by chance. Whether it's a familiar or a stranger, it's likely to find a home in our mind and soul.",
+    "",
+    "piece224.jpg"], //224
 
 
 
@@ -1683,3 +1766,377 @@ PDF002: [
 ]
 
 }
+
+var shopItems = [
+    shopID000 = {
+        id: "shopID000",
+        title: "Collection 0",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID001",
+        title: "Collection 1",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID002",
+        title: "Collection 2",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID003",
+        title: "Collection 3",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID004",
+        title: "Collection 4",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID005",
+        title: "Collection 5",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID006",
+        title: "Collection 6",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID007",
+        title: "Collection 7",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID008",
+        title: "Collection 8",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID009",
+        title: "Collection 9",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID010",
+        title: "Collection 10",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID011",
+        title: "Collection 11",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID012",
+        title: "Collection 12",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID013",
+        title: "Collection 13",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID014",
+        title: "Collection 14",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID015",
+        title: "Collection 15",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID0016",
+        title: "Collection 16",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID017",
+        title: "Collection 17",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID018",
+        title: "Collection 18",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID019",
+        title: "Collection 19",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID020",
+        title: "Collection 20",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID021",
+        title: "Collection 21",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID022",
+        title: "Collection 22",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID023",
+        title: "Collection 23",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID024",
+        title: "Collection 24",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID025",
+        title: "Collection 25",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID026",
+        title: "Collection 26",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID027",
+        title: "Collection 27",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID028",
+        title: "Collection 28",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID029",
+        title: "Collection 29",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID030",
+        title: "Collection 30",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID031",
+        title: "Collection 31",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID032",
+        title: "Collection 32",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID033",
+        title: "Collection 33",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID034",
+        title: "Collection 34",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID035",
+        title: "Collection 35",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    shopID000 = {
+        id: "shopID036",
+        title: "Collection 36",
+        name: "",
+        price: "0.50",
+        pieces: [
+            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        ]
+    },
+
+    
+]
