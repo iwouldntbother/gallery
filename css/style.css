@@ -13,6 +13,7 @@ body {
     top: 0;
     left: 0;
     display: none;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -22,6 +23,11 @@ body {
     font-size: 2vh;
 }
 
+#mobileButton{
+    background-color: black;
+    color: white;
+    padding: 1vw;
+}
 
 #countdown {
     width: 100vw;
