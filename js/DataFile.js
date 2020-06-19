@@ -1776,372 +1776,530 @@ var shopItems = [
     shopID000 = {
         id: "shopID000",
         title: "Collection 0",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Agata Genissel",
+        files: [
+            "catanddog_Agata Genissel 1.jpg",
+            "dennispotenfinal_Agata Genissel.jpg",
+            "lil doodadjingod_Agata Genissel.jpg",
+            "mysticaldog12_Agata Genissel.jpg"
+        ],
+        preview: [
+            "piece045.jpg",
+            "piece046.jpg",
+            "piece047.jpg",
+            "piece051.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID001 = {
         id: "shopID001",
         title: "Collection 1",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Anastasia Avdejeva",
+        files: [
+            "IMG_20200605_232411_Anastasia Avdejeva.jpg"
+        ],
+        preview: [
+            "piece145.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID002 = {
         id: "shopID002",
         title: "Collection 2",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Antonia Hazlewood",
+        files: [
+            "IMG_20200604_184632_Antonia Hazlewood.jpg",
+            "IMG_20200605_092846_Antonia Hazlewood.jpg"
+        ],
+        preview: [
+            "piece089.jpg",
+            "piece090.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID003 = {
         id: "shopID003",
         title: "Collection 3",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Bessie Kirkham",
+        files: [
+            "B73CC98F-3CC7-42C5-9973-D1F4F3B39CAD_Bessie Kirkham.jpeg",
+            "C8A1D16B-63B7-4534-8AD3-740FE6674799_Bessie Kirkham.jpeg"
+        ],
+        preview: [
+            "piece127.jpg",
+            "piece128.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID004 = {
         id: "shopID004",
         title: "Collection 4",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Cerys Organ",
+        files: [
+            "CerysFMPFinal_Cerys Organ.jpg",
+            "OilPastelStudy_Cerys Organ.jpg",
+            "Photo1_Cerys Organ.jpg",
+            "Photo2_Cerys Organ.jpg",
+            "Photo3_Cerys Organ.jpg",
+            "Photo4_Cerys Organ.jpg",
+            "Photo5_Cerys Organ.jpg",
+            "Photo6_Cerys Organ.jpg"
+        ],
+        preview: [
+            "piece130.jpg",
+            "piece216.jpg",
+            "piece217.jpg",
+            "piece218.jpg",
+            "piece219.jpg",
+            "piece220.jpg",
+            "piece221.jpg",
+            "piece222.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID005 = {
         id: "shopID005",
         title: "Collection 5",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Charlie Jones",
+        files: [
+            "canvas final_Charlie Jones.jpg",
+            "piece225.jpg"
+        ],
+        preview: [
+            "piece142.jpg",
+            "piece225.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID006 = {
         id: "shopID006",
         title: "Collection 6",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Charlotte Booth",
+        files: [
+            "Bittersweet_Charlotte Booth.jpg"
+        ],
+        preview: [
+            "piece063.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID007 = {
         id: "shopID007",
         title: "Collection 7",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Megan Lindon",
+        files: [
+            "102389457_730068791101417_8752440615288963072_n_Megan Lindon.jpg",
+            "PICA Photo 1_3_Megan Lindon.png",
+            "PICA Photo 2_Megan Lindon.png",
+            "PICA Photo 3_Megan Lindon.png"
+        ],
+        preview: [
+            "piece100.jpg",
+            "piece101.jpg",
+            "piece102.jpg",
+            "piece103.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID008 = {
         id: "shopID008",
         title: "Collection 8",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Chelsea Jacques",
+        files: [
+            "Friday 13th_Chelsea Jacques.jpg",
+            "insults_Chelsea Jacques.jpg",
+            "lasagne_Chelsea Jacques.JPG",
+            "lemon pie_Chelsea Jacques.JPG"
+        ],
+        preview: [
+            "piece010.jpg",
+            "piece011.jpg",
+            "piece012.jpg",
+            "piece013.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID009 = {
         id: "shopID009",
         title: "Collection 9",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Eleanor Jennings",
+        files: [
+            "1 bumble DSC-0404_Eleanor Jennings.jpg",
+            "2 bess 2 DSC-0293_Eleanor Jennings.jpg",
+            "3 Bracken DSC-0475_Eleanor Jennings.jpg",
+            "bess eye_Eleanor Jennings.jpg",
+            "gemini DSC_0329_Eleanor Jennings.jpg"
+        ],
+        preview: [
+            "piece094.jpg",
+            "piece096.jpg",
+            "piece097.jpg",
+            "piece095.jpg",
+            "piece098.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID010 = {
         id: "shopID010",
         title: "Collection 10",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Ella DuGay",
+        files: [
+            "DSC_0686 - Edited_Ella DuGay.jpg",
+            "DSC_0688 - Edited (2)_Ella DuGay.jpg",
+            "DSC_0948_Ella DuGay.JPG",
+            "DSC_0958_Ella DuGay.JPG",
+            "DSC_0966_Ella DuGay.JPG",
+            "DSC_0976_Ella DuGay.JPG",
+            "DSC_0977_Ella DuGay.JPG",
+            "DSC_0978 - Edited_Ella DuGay.jpg",
+            "DSC_0979 - Edited (1)_Ella DuGay.jpg",
+            "DSC_0980 - Edited (1)_Ella DuGay.jpg",
+            "yello wallapaper 3_Ella DuGay.JPG",
+            "yello wallpaper 2_Ella DuGay.JPG"
+        ],
+        preview: [
+            "piece113.jpg",
+            "piece114.jpg",
+            "piece115.jpg",
+            "piece116.jpg",
+            "piece117.jpg",
+            "piece118.jpg",
+            "piece119.jpg",
+            "piece120.jpg",
+            "piece121.jpg",
+            "piece122.jpg",
+            "piece123.jpg",
+            "piece124.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID011 = {
         id: "shopID011",
         title: "Collection 11",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Eleanor Hall",
+        files: [
+            "favourite i think three photos FMP final_Eleanor Hall.jpg"
+        ],
+        preview: [
+            "piece062.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID012 = {
         id: "shopID012",
         title: "Collection 12",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Emma Baldwin",
+        files: [
+            "English Blue_Emma Baldwin.JPG",
+            "Handles_Emma Baldwin.JPEG",
+            "Home_Emma Baldwin.JPG",
+            "Stripes_Emma Baldwin.JPG",
+            "Text_Emma Baldwin.JPG",
+            "White_Emma Baldwin.JPG",
+            "Willow Pattern_Emma Baldwin.JPG"
+        ],
+        preview: [
+            "piece193.jpg",
+            "piece194.jpg",
+            "piece195.jpg",
+            "piece196.jpg",
+            "piece197.jpg",
+            "piece198.jpg",
+            "piece199.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID013 = {
         id: "shopID013",
         title: "Collection 13",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Eva Sedgwick-Coward",
+        files: [
+            "FINAL 1_Eva Sedgwick-Coward.jpg",
+            "FINAL 2_Eva Sedgwick-Coward.jpg",
+            "FINAL 3_Eva Sedgwick-Coward.jpg"
+        ],
+        preview: [
+            "piece137.jpg",
+            "piece138.jpg",
+            "piece139.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID014 = {
         id: "shopID014",
         title: "Collection 14",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Georgia Kogel",
+        files: [
+            "IMG_1084_Georgia Kogel.jpg",
+            "IMG_1809_Georgia Kogel.jpg",
+            "IMG_1810_Georgia Kogel.jpg",
+            "IMG_1813_Georgia Kogel.jpg"
+        ],
+        preview: [
+            "piece015.jpg",
+            "piece016.jpg",
+            "piece017.jpg",
+            "piece018.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID015 = {
         id: "shopID015",
         title: "Collection 15",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Hannah Kinch James",
+        files: [
+            "20190721_181239.jpg",
+            "MRS028_GreenElectricGreen.jpg",
+            "MRS029_WhiteStripesGolden.jpg",
+            "MRS045_PinkYellowChair.jpg",
+            "suspendecollage5.png",
+            "Suspended collage 2.png",
+            "suspended collage 3.png",
+            "suspended collage4.png",
+            "suspended collage6.png",
+            "suspended collages7.jpg",
+            "suspendedcollage1.png",
+            "suspendedcollage8.png",
+            "suspendedcollage9.png"
+        ],
+        preview: [
+            "piece200.jpg",
+            "piece201.jpg",
+            "piece202.jpg",
+            "piece203.jpg",
+            "piece204.jpg",
+            "piece205.jpg",
+            "piece206.jpg",
+            "piece207.jpg",
+            "piece208.jpg",
+            "piece210.jpg",
+            "piece211.jpg",
+            "piece212.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID016 = {
         id: "shopID0016",
         title: "Collection 16",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Isabelle VanZijl",
+        files: [
+            "blue stain_Isabelle VanZijl.jpg",
+            "dark blue stain_Isabelle VanZijl.jpg",
+            "deconstructed stain_Isabelle VanZijl.jpg",
+            "pink stain_Isabelle VanZijl.jpg",
+            "yellow stain_Isabelle VanZijl.jpg"
+        ],
+        preview: [
+            "piece104.jpg",
+            "piece105.jpg",
+            "piece106.jpg",
+            "piece107.jpg",
+            "piece108.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID017 = {
         id: "shopID017",
         title: "Collection 17",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Leah Risby",
+        files: [
+            "P1020465_Leah Risby.JPG",
+            "P1020467_Leah Risby.JPG",
+            "P1020476_Leah Risby.JPG",
+            "P1020490_Leah Risby.JPG"
+        ],
+        preview: [
+            "piece031.jpg",
+            "piece032.jpg",
+            "piece033.jpg",
+            "piece034.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID018 = {
         id: "shopID018",
         title: "Collection 18",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Lilly Doherty",
+        files: [
+            "B12CE80E-D712-4804-A82A-E823D6DCF8B5_Lilly Doherty.jpeg"
+        ],
+        preview: [
+            "piece136.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID019 = {
         id: "shopID019",
         title: "Collection 19",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Lucie Maughan",
+        files: [
+            "9C8F4EE8-B0A2-4634-8EB5-A2AB463A19F8_Lucie Maughan.jpeg",
+            "D40B0601-A4C3-412B-97E3-60BF0A59D8C2_Lucie Maughan.jpeg",
+            "E2C10C0A-4393-47E1-A84E-4356D3AAE83F_Lucie Maughan.jpeg"
+        ],
+        preview: [
+            "piece086.jpg",
+            "piece087.jpg",
+            "piece088.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID020 = {
         id: "shopID020",
         title: "Collection 20",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Margaux Huyghues Despointes",
+        files: [
+            "BCF69E53-7ECA-45D2-9D2C-6CE5A1FD817F_Margaux HuyghuesDesp.jpeg",
+            "C4F2D0E2-C7AB-496A-B035-2DC5D8090079_Margaux HuyghuesDesp.jpeg",
+            "F89073F6-9EC0-41EB-A94B-095F73EDCC99_Margaux HuyghuesDesp.jpeg"
+        ],
+        preview: [
+            "piece091.jpg",
+            "piece092.jpg",
+            "piece093.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID021 = {
         id: "shopID021",
         title: "Collection 21",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Paul Kilsby",
+        files: [
+            "COVID POSY III_Paul Kilsby.png",
+            "COVID POSY II_Paul Kilsby.png",
+            "COVID POSY I_Paul Kilsby.png"
+        ],
+        preview: [
+            "piece131.jpg",
+            "piece132.jpg",
+            "piece133.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID022 = {
         id: "shopID022",
         title: "Collection 22",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Phoebe Leech",
+        files: [
+            "comp_Phoebe Leech.jpg",
+            "R1 1_Phoebe Leech.jpg",
+            "R1 2_Phoebe Leech.jpg",
+            "R1 3_Phoebe Leech.jpg",
+            "R2 1_Phoebe Leech.jpg",
+            "R2 2_Phoebe Leech.jpg",
+            "R2 3_Phoebe Leech.jpg",
+            "R3 1_Phoebe Leech.jpg",
+            "R3 2_Phoebe Leech.jpg",
+            "R3 3_Phoebe Leech.jpg"
+        ],
+        preview: [
+            "piece052.jpg",
+            "piece053.jpg",
+            "piece054.jpg",
+            "piece055.jpg",
+            "piece056.jpg",
+            "piece057.jpg",
+            "piece058.jpg",
+            "piece059.jpg",
+            "piece060.jpg",
+            "piece143.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID023 = {
         id: "shopID023",
         title: "Collection 23",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Sam Harper",
+        files: [
+            "Covid poster final bunker jpeg_Sam Harper.jpg",
+            "image 1_Sam Harper.jpg",
+            "image 2_Sam Harper.jpg",
+            "image 3_Sam Harper.jpg",
+            "image 4_Sam Harper.jpg",
+            "image 5_Sam Harper.jpg",
+            "image 6_Sam Harper.jpg",
+            "image 7_Sam Harper.jpg",
+            "image 8_Sam Harper.jpg"
+        ],
+        preview: [
+            "piece019.jpg",
+            "piece020.jpg",
+            "piece021.jpg",
+            "piece022.jpg",
+            "piece023.jpg",
+            "piece024.jpg",
+            "piece025.jpg",
+            "piece026.jpg",
+            "piece065.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID024 = {
         id: "shopID024",
         title: "Collection 24",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Sarah Street",
+        files: [
+            "BANANASFINAL_Sarah Street.jpg",
+            "orange1_Sarah Street.jpg"
+        ],
+        preview: [
+            "piece140.jpg",
+            "piece141.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID025 = {
         id: "shopID025",
         title: "Collection 25",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Suzanne Elven",
+        files: [
+            "edited5_Suzanne Elven.jpg",
+            "edited6_Suzanne Elven.jpg",
+            "IMG_5918_Suzanne Elven.jpeg",
+            "IMG_5919_Suzanne Elven.jpeg",
+            "IMG_5983_Suzanne Elven.jpeg"
+        ],
+        preview: [
+            "piece009thumb.jpg",
+            "piece027.jpg",
+            "piece028.jpg",
+            "piece029.jpg",
+            "piece030.jpg",
+            "piece035.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID026 = {
         id: "shopID026",
         title: "Collection 26",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Syden deOliveiraColimao",
+        files: [
+            "MicrosoftTeams-image (1).png",
+            "MicrosoftTeams-image (2).png",
+            "MicrosoftTeams-image (3).png"
+        ],
+        preview: [
+            "piece001.jpg",
+            "piece002.jpg",
+            "piece003.jpg"
         ]
     },
 
-    shopID000 = {
+    shopID027 = {
         id: "shopID027",
         title: "Collection 27",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
+        name: "Xanath Hüffmann Suárez",
+        files: [
+            "e3_Xanath HuffmannSuare.jpg",
+            "ETOG2_Xanath HuffmannSuare.jpg",
+            "ETOG3_Xanath HuffmannSuare.jpg",
+            "ETOG4_Xanath HuffmannSuare.jpg",
+            "ETOG5_Xanath HuffmannSuare.jpg",
+            "ETOG_Xanath HuffmannSuare.jpg"
+        ],
+        preview: [
+            "piece223.jpg",
+            "piece224.jpg"
         ]
-    },
-
-    shopID000 = {
-        id: "shopID028",
-        title: "Collection 28",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
-        ]
-    },
-
-    shopID000 = {
-        id: "shopID029",
-        title: "Collection 29",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
-        ]
-    },
-
-    shopID000 = {
-        id: "shopID030",
-        title: "Collection 30",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
-        ]
-    },
-
-    shopID000 = {
-        id: "shopID031",
-        title: "Collection 31",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
-        ]
-    },
-
-    shopID000 = {
-        id: "shopID032",
-        title: "Collection 32",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
-        ]
-    },
-
-    shopID000 = {
-        id: "shopID033",
-        title: "Collection 33",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
-        ]
-    },
-
-    shopID000 = {
-        id: "shopID034",
-        title: "Collection 34",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
-        ]
-    },
-
-    shopID000 = {
-        id: "shopID035",
-        title: "Collection 35",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
-        ]
-    },
-
-    shopID000 = {
-        id: "shopID036",
-        title: "Collection 36",
-        name: "",
-        price: "0.50",
-        pieces: [
-            {file: "shop/Collection 0/lowres/1062663F.jpg", resolution: "2344x5089"}
-        ]
-    },
-
-    
+    }
 ]

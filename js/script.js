@@ -911,15 +911,15 @@ function shopSearch(){
 
 function loadShopItems(){
     shopItems.forEach(function(item){
-        document.getElementById("shopHolder").innerHTML += '<div id="'+item.id+'" class="shopItem"><div class="shopDetails"><h1 class="shopTitle">'+item.title+'</h1><p class="shopName">'+item.name+'</p></div><div class="shopGallery">'+makeGallery(item)+'</div><div class="btnPrice"><p class="shopPrice">'+item.price+'</p><button id="BTN'+item.id.slice(-5)+'" class="shopBTN" onclick="addToBasket(this)">Add to Basket</button></div></div>'
+        document.getElementById("shopHolder").innerHTML += '<div id="'+item.id+'" class="shopItem"><div class="shopDetails"><h1 class="shopTitle">'+item.title+'</h1><p class="shopName">'+item.name+'</p></div><div class="shopGallery">'+makeGallery(item)+'</div><div class="btnPrice"><p class="shopPrice">5.00</p><button id="BTN'+item.id.slice(-5)+'" class="shopBTN" onclick="addToBasket(this)">Add to Basket</button></div></div>'
         forSale.push(item)
     })
 }
 
 function makeGallery(id){
     var tempGallery = "";
-    id.pieces.forEach(function(item){
-        tempGallery += '<div class="shopGalleryItem"><img src="'+item.file+'"><span>'+item.resolution+'</span></div>'
+    id.preview.forEach(function(item){
+        tempGallery += '<div class="shopGalleryItem"><img src="/shop/'+id.title+'/lowres/'+item+'"></div>'
     })
     return tempGallery;
 }
@@ -933,10 +933,10 @@ function addToBasket(btnID){
     //console.log(parentID)
     item = shopItems[Number(parentID.slice(-3))]
     var basketID = (basket.length).toString() + ":" + parentID.slice(-3); 
-    basket.push('<div id="basket'+parentID.slice(-5)+'" class="basketItem"><div class="basketDetail"><h1 class="basketTitle">'+item.title+'</h1><p class="basketName">'+item.name+'</p></div><p class="basketPrice">'+item.price+'</p><button class="basketRemoveBTN" onclick="removeItem(\''+basketID+'\')"></button></div>')
+    basket.push('<div id="basket'+parentID.slice(-5)+'" class="basketItem"><div class="basketDetail"><h1 class="basketTitle">'+item.title+'</h1><p class="basketName">'+item.name+'</p></div><p class="basketPrice">5.00</p><button class="basketRemoveBTN" onclick="removeItem(\''+basketID+'\')"></button></div>')
     document.getElementById("basketHolder").innerHTML += basket[basketID.split(":")[0]]
     //console.log(Number(document.getElementById("basketSubPrice").innerHTML), Number(item.price))
-    document.getElementById("basketSubPrice").innerHTML = (Number(document.getElementById("basketSubPrice").innerHTML) + Number(item.price)).toFixed(2).toString()
+    document.getElementById("basketSubPrice").innerHTML = (Number(document.getElementById("basketSubPrice").innerHTML) + Number("5.00")).toFixed(2).toString()
     updateBasket()
 }
 
@@ -950,7 +950,7 @@ function removeItem(itemID) {
     document.getElementById(btnID).innerHTML = "Add to Basket"
     basket[shopID] = "";
     //console.log(Number(document.getElementById("basketSubPrice").innerHTML), Number(item.price))
-    document.getElementById("basketSubPrice").innerHTML = (Number(document.getElementById("basketSubPrice").innerHTML) - Number(shopItems[Number(itemID.split(":")[1])].price)).toFixed(2).toString()
+    document.getElementById("basketSubPrice").innerHTML = (Number(document.getElementById("basketSubPrice").innerHTML) - Number("5.00")).toFixed(2).toString()
     updateBasket()
 }
 
@@ -1060,9 +1060,8 @@ function downloadZip(data){
     for(i=0; i < files.length-1; i++){
         var item = shopItems[Number(files[i])]
         var folderName = item.title
-        item.pieces.forEach(function(img){
-            var filename = img.file.split("/").slice(-1)
-            zip.file(folderName + "/" + filename, urlToPromise("shop/" + folderName + "/highres/" + filename), {binary:true})
+        item.files.forEach(function(img){
+            zip.file(folderName + "/" + img, urlToPromise("shop/" + folderName + "/highres/" + img), {binary:true})
         })
     
     }
