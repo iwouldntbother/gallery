@@ -665,6 +665,7 @@ function PDFDisplay(id){
     document.getElementById("PDFView").style.display = "flex";
     currentTopPage = 2;
     openPDF = id;
+    pageCheck();
 }
 
 function loadPauseMenu() {
